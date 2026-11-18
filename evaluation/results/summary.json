@@ -1,0 +1,49 @@
+{
+  "so_email": 30,
+  "phan_loai_dung": 30,
+  "ty_le_phan_loai": 1.0,
+  "truong": {
+    "Khách hàng": {
+      "dung": 28,
+      "tong": 28,
+      "ty_le": 1.0
+    },
+    "Tên sản phẩm": {
+      "dung": 84,
+      "tong": 84,
+      "ty_le": 1.0
+    },
+    "Số lượng": {
+      "dung": 84,
+      "tong": 84,
+      "ty_le": 1.0
+    },
+    "Đơn vị": {
+      "dung": 84,
+      "tong": 84,
+      "ty_le": 1.0
+    },
+    "Ngày giao": {
+      "dung": 28,
+      "tong": 28,
+      "ty_le": 1.0
+    },
+    "Địa chỉ giao": {
+      "dung": 28,
+      "tong": 28,
+      "ty_le": 1.0
+    }
+  },
+  "sku_dong": 84,
+  "sku_top1": 78,
+  "sku_top3": 79,
+  "sku_top1_tren_ten_dap_an": 78,
+  "don_cham": 25,
+  "don_dat_ngay": 19,
+  "ty_le_dat_ngay": 0.76,
+  "kpi02_uoc_tinh": 0.24,
+  "nhom_loi": {
+    "Sai hoặc thiếu SKU": 7
+  },
+  "bia_thong_tin": 0
+}

@@ -1,0 +1,12 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+~$*
+.DS_Store
+Thumbs.db
+
+# Ảnh chụp màn hình do mockup/build_mockup.py sinh ra
+mockup/screens/

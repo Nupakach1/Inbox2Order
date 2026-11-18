@@ -1,0 +1,76 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "title": "raw_emails – email gốc, lưu nguyên văn (FR-01)",
+    "required": [
+      "_id",
+      "from_email",
+      "to_email",
+      "body",
+      "received_at",
+      "attachments"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^E[0-9]{3,}$",
+        "description": "Mã email, trùng emails.email_id trong PostgreSQL"
+      },
+      "from_email": {
+        "bsonType": "string",
+        "description": "Địa chỉ người gửi"
+      },
+      "from_name": {
+        "bsonType": [
+          "string",
+          "null"
+        ],
+        "description": "Tên người gửi"
+      },
+      "to_email": {
+        "bsonType": "string",
+        "description": "Hộp thư nhận (donhang@anphat.example.vn)"
+      },
+      "subject": {
+        "bsonType": [
+          "string",
+          "null"
+        ],
+        "description": "Tiêu đề"
+      },
+      "body": {
+        "bsonType": "string",
+        "description": "Nội dung nguyên văn, chưa che thông tin cá nhân; không bao giờ gửi thẳng cho mô hình AI (BR-14)"
+      },
+      "received_at": {
+        "bsonType": "date",
+        "description": "Thời điểm nhận"
+      },
+      "attachments": {
+        "bsonType": "array",
+        "description": "Tệp đính kèm; có tệp thì email được gắn nhãn has_attachment (EX-01)",
+        "items": {
+          "bsonType": "object",
+          "required": [
+            "filename",
+            "mime_type"
+          ],
+          "properties": {
+            "filename": {
+              "bsonType": "string",
+              "description": "Tên tệp"
+            },
+            "mime_type": {
+              "bsonType": "string",
+              "description": "Kiểu tệp"
+            },
+            "size_bytes": {
+              "bsonType": "int",
+              "description": "Dung lượng"
+            }
+          }
+        }
+      }
+    }
+  }
+}

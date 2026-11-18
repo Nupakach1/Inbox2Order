@@ -1,0 +1,98 @@
+{
+ "TC-01": [
+  "Đạt",
+  "E005: phân loại new_order, email chuyển qua Đã tạo đơn nháp (drafted|new_order)"
+ ],
+ "TC-02": [
+  "Đạt",
+  "E025: forwarded|new_customer|sales_manager|0 (trạng thái|nhãn|người nhận|số đơn)"
+ ],
+ "TC-03": [
+  "Đạt",
+  "E030:price_inquiry:sales_manager, E057:complaint:sales_manager; số đơn 0"
+ ],
+ "TC-04": [
+  "Đạt",
+  "Email gốc có số điện thoại trong chữ ký; nội dung gửi AI đã che: {'phone': 1, 'bank_account': 0, 'signature': 1}"
+ ],
+ "TC-05": [
+  "Đạt",
+  "Đơn nháp KH010|2026-11-06|draft|3 (khách|ngày giao|trạng thái|số dòng). Thời gian 90 giây (NFR-01) đo khi chạy qua API ở pilot"
+ ],
+ "TC-06": [
+  "Đạt",
+  "E009: Cắt băng keo→BK006(matched); Vở 200 trang kẻ ngang→VO003(matched); Bút xóa nước 12ml→BU029(matched); mực dấu xanh→MU003(matched). Cả 4 dòng khớp đúng mã theo đáp án, không dòng nào phải gợi ý"
+ ],
+ "TC-07": [
+  "Đạt",
+  "E004: 2 lốc tập 200 ô ly = 20.00 cuốn; địa chỉ mặc định và ngày 03/11 được đánh dấu cần kiểm tra"
+ ],
+ "TC-08": [
+  "Đạt",
+  "E023: needs_review|1:false,2:false,3:true (dòng 3 thiếu số lượng); lệnh xác nhận bị CSDL chặn theo BR-05"
+ ],
+ "TC-09": [
+  "Đạt",
+  "E026: BU004|720.00|t (36 hộp = 720 cây > ngưỡng 180)"
+ ],
+ "TC-10": [
+  "Đạt",
+  "E050 (gửi lại E047): forwarded|possible_duplicate|0"
+ ],
+ "TC-11": [
+  "Đạt",
+  "E010 sửa đơn E002: qty_raw:1→4; line_removed:dạ quang vàng→; không tạo đơn mới"
+ ],
+ "TC-12": [
+  "Đạt",
+  "E024 nhận 20h18 ngày 03/11, vào danh sách duyệt lúc 04/11 08:00"
+ ],
+ "TC-13": [
+  "Đạt",
+  "Lọc Cần kiểm tra ngày 03/11: E015 hạn 03/11 17:00, E016 hạn 03/11 17:00, E018 hạn 03/11 17:00, E019 hạn 03/11 17:00, E020 hạn 03/11 17:00, E021 hạn 03/11 17:00, E022 hạn 03/11 17:00, E023 hạn 03/11 17:00"
+ ],
+ "TC-14": [
+  "Đạt",
+  "Nhật ký: qty_base|10.00|12|Nguyễn Thị Hương|t (trường|cũ|mới|người sửa|có thời điểm); sửa lại bị chặn theo NFR-05: True"
+ ],
+ "TC-15": [
+  "Chưa chạy",
+  "Phần trong Inbox2Order đạt: Sales Admin xác nhận được (True), bản ghi Sales Order chờ gửi SAP được tạo. Tạo Sales Order thật và gửi email xác nhận cần SAP sandbox và hộp thư, chạy ở tuần 1 pilot"
+ ],
+ "TC-16": [
+  "Đạt",
+  "Xác nhận đơn E023 bị chặn: còn dòng 'bút xanh 0.5' thiếu số lượng (BR-05)"
+ ],
+ "TC-17": [
+  "Đạt",
+  "E016 (không có dòng hàng): từ chối không lý do bị chặn; đề nghị bổ sung → waiting_customer. Việc gửi email đề nghị cần hộp thư, chạy ở pilot"
+ ],
+ "TC-18": [
+  "Chưa chạy",
+  "CSDL giữ đúng một bản ghi Sales Order cho mỗi đơn và lưu trạng thái lỗi để thử lại (chặn bản thứ hai: True); lời gọi API SAP thật chạy ở pilot"
+ ],
+ "TC-19": [
+  "Đạt",
+  "Chọn lại VO004 cho dòng gợi ý của E004 và lưu bí danh AL061|KH011|tập 200 ô ly|VO004 (mã|khách|tên gọi|SKU)"
+ ],
+ "TC-20": [
+  "Đạt",
+  "Bí danh mới AL062|BU029|Lê Thu Trang (mã|SKU|người tạo)"
+ ],
+ "TC-21": [
+  "Đạt",
+  "Thêm 'TẬP 200 KẺ NGANG' cho KH010 trỏ VO004 bị chặn vì đã có bí danh này trỏ VO003; giao diện hỏi có ngừng bí danh cũ để thay không (ngừng = status inactive rồi thêm mới)"
+ ],
+ "TC-22": [
+  "Chưa chạy",
+  "Truy vấn KPI đã kiểm thử đúng Bảng 4.1 trên bộ đơn tính tay (tests/test_db_schema.py); truy vấn cảnh báo 16h30 ngày 06/11 trả 7 đơn chưa duyệt. Gửi cảnh báo qua email và dashboard có dữ liệu duyệt thật chạy ở pilot"
+ ],
+ "TC-23": [
+  "Chưa chạy",
+  "Trưởng phòng xác nhận đơn bị CSDL chặn (True). Đăng nhập theo vai trò cần bản pilot có tài khoản"
+ ],
+ "TC-24": [
+  "Đạt",
+  "Khi AI không trả kết quả sau 3 lần: email E005 vẫn có đơn trống ở needs_review kèm ghi chú 'Mô hình AI lỗi, cần nhập tay (EX-03)'"
+ ]
+}

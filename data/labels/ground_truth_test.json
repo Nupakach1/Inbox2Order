@@ -1,0 +1,963 @@
+[
+  {
+    "email_id": "E004",
+    "category": "new_order",
+    "customer_id": "KH011",
+    "lines": [
+      {
+        "product_text": "tập 200 ô ly",
+        "sku": "VO004",
+        "qty": 2,
+        "unit": "lốc",
+        "qty_base": 20
+      },
+      {
+        "product_text": "bút gel đen",
+        "sku": "BU008",
+        "qty": 1,
+        "unit": "hộp",
+        "qty_base": 12
+      },
+      {
+        "product_text": "decal A4",
+        "sku": "BT004",
+        "qty": 3,
+        "unit": "xấp",
+        "qty_base": 3
+      },
+      {
+        "product_text": "túi nút xanh",
+        "sku": "BI007",
+        "qty": 3,
+        "unit": "lốc",
+        "qty_base": 36
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E005",
+    "category": "new_order",
+    "customer_id": "KH010",
+    "lines": [
+      {
+        "product_text": "tập 200 kẻ ngang",
+        "sku": "VO003",
+        "qty": 10,
+        "unit": "cuốn",
+        "qty_base": 10
+      },
+      {
+        "product_text": "mực dấu xanh",
+        "sku": "MU003",
+        "qty": 2,
+        "unit": "lọ",
+        "qty_base": 2
+      },
+      {
+        "product_text": "bìa còng 7 phân đen",
+        "sku": "BI004",
+        "qty": 4,
+        "unit": "thùng",
+        "qty_base": 80
+      }
+    ],
+    "delivery_date": "2026-11-06",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E006",
+    "category": "new_order",
+    "customer_id": "KH024",
+    "lines": [
+      {
+        "product_text": "sổ name card",
+        "sku": "VO008",
+        "qty": 3,
+        "unit": "cuốn",
+        "qty_base": 3
+      },
+      {
+        "product_text": "dập ghim số 3",
+        "sku": "KE011",
+        "qty": 1,
+        "unit": "cái",
+        "qty_base": 1
+      }
+    ],
+    "delivery_date": "2026-11-05",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E009",
+    "category": "new_order",
+    "customer_id": "KH010",
+    "lines": [
+      {
+        "product_text": "Cắt băng keo",
+        "sku": "BK006",
+        "qty": 2,
+        "unit": "cái",
+        "qty_base": 2
+      },
+      {
+        "product_text": "Vở 200 trang kẻ ngang",
+        "sku": "VO003",
+        "qty": 1,
+        "unit": "lốc",
+        "qty_base": 10
+      },
+      {
+        "product_text": "Bút xóa nước 12ml",
+        "sku": "BU029",
+        "qty": 5,
+        "unit": "hộp",
+        "qty_base": 60
+      },
+      {
+        "product_text": "mực dấu xanh",
+        "sku": "MU003",
+        "qty": 3,
+        "unit": "lọ",
+        "qty_base": 3
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E010",
+    "category": "modify_order",
+    "customer_id": "KH028",
+    "lines": [
+      {
+        "action": "update",
+        "product_text": "sổ name card",
+        "sku": "VO008",
+        "qty": 4,
+        "unit": "cuốn",
+        "qty_base": 4
+      },
+      {
+        "action": "remove",
+        "product_text": "dạ quang vàng",
+        "sku": "BU016",
+        "qty": null,
+        "unit": null,
+        "qty_base": null
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": "E002",
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E011",
+    "category": "modify_order",
+    "customer_id": "KH015",
+    "lines": [
+      {
+        "action": "update",
+        "product_text": "Giấy note vàng 3x3",
+        "sku": "GI011",
+        "qty": 3,
+        "unit": "lốc",
+        "qty_base": 36
+      },
+      {
+        "action": "remove",
+        "product_text": "Kẹp bướm 51mm",
+        "sku": "KE006",
+        "qty": null,
+        "unit": null,
+        "qty_base": null
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": "E007",
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E016",
+    "category": "new_order",
+    "customer_id": "KH024",
+    "lines": [],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {
+      "missing": "no_lines"
+    }
+  },
+  {
+    "email_id": "E018",
+    "category": "new_order",
+    "customer_id": "KH011",
+    "lines": [
+      {
+        "product_text": "băng dính nhỏ",
+        "sku": "BK002",
+        "qty": 10,
+        "unit": "cuộn",
+        "qty_base": 10
+      },
+      {
+        "product_text": "tampon",
+        "sku": "MU005",
+        "qty": 1,
+        "unit": "cái",
+        "qty_base": 1
+      },
+      {
+        "product_text": "bút gel đen",
+        "sku": "BU008",
+        "qty": 3,
+        "unit": "hộp",
+        "qty_base": 36
+      },
+      {
+        "product_text": "bút bảng xanh",
+        "sku": "BU020",
+        "qty": 2,
+        "unit": "hộp",
+        "qty_base": 20
+      },
+      {
+        "product_text": "sổ danh thiếp",
+        "sku": "VO008",
+        "qty": 1,
+        "unit": "cuốn",
+        "qty_base": 1
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E020",
+    "category": "new_order",
+    "customer_id": "KH029",
+    "lines": [
+      {
+        "product_text": "Vở 200 trang kẻ ngang",
+        "sku": "VO003",
+        "qty": 4,
+        "unit": "lốc",
+        "qty_base": 40
+      },
+      {
+        "product_text": "bút đen 0.5",
+        "sku": "BU003",
+        "qty": 5,
+        "unit": "cây",
+        "qty_base": 5
+      }
+    ],
+    "delivery_date": "2026-11-05",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E021",
+    "category": "new_order",
+    "customer_id": "KH015",
+    "lines": [
+      {
+        "product_text": "Bút lông dầu đỏ",
+        "sku": "BU025",
+        "qty": 5,
+        "unit": "hộp",
+        "qty_base": 50
+      },
+      {
+        "product_text": "Giấy note vàng 3x3",
+        "sku": "GI011",
+        "qty": 2,
+        "unit": "lốc",
+        "qty_base": 24
+      },
+      {
+        "product_text": "xóa kéo",
+        "sku": "BU030",
+        "qty": 5,
+        "unit": "hộp",
+        "qty_base": 60
+      },
+      {
+        "product_text": "Vở 200 trang ô ly",
+        "sku": "VO004",
+        "qty": 1,
+        "unit": "lốc",
+        "qty_base": 10
+      },
+      {
+        "product_text": "Kẹp bướm 51mm",
+        "sku": "KE006",
+        "qty": 2,
+        "unit": "lốc",
+        "qty_base": 20
+      }
+    ],
+    "delivery_date": "2026-11-07",
+    "delivery_address": "179 Hẻm Bàng Lăng, Quận 10, TP.HCM",
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E022",
+    "category": "new_order",
+    "customer_id": "KH013",
+    "lines": [
+      {
+        "product_text": "pin 3A",
+        "sku": "PI002",
+        "qty": 5,
+        "unit": "hộp",
+        "qty_base": 50
+      },
+      {
+        "product_text": "khăn giấy",
+        "sku": "BT005",
+        "qty": 4,
+        "unit": "thùng",
+        "qty_base": 120
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E023",
+    "category": "new_order",
+    "customer_id": "KH020",
+    "lines": [
+      {
+        "product_text": "kẹp bướm số 25",
+        "sku": "KE003",
+        "qty": 4,
+        "unit": "lốc",
+        "qty_base": 40
+      },
+      {
+        "product_text": "Ghim cài",
+        "sku": "KE013",
+        "qty": 2,
+        "unit": "hộp",
+        "qty_base": 2
+      },
+      {
+        "product_text": "bút xanh 0.5",
+        "sku": "BU001",
+        "qty": null,
+        "unit": null,
+        "qty_base": null
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {
+      "missing": "no_qty"
+    }
+  },
+  {
+    "email_id": "E024",
+    "category": "new_order",
+    "customer_id": "KH013",
+    "lines": [
+      {
+        "product_text": "Bìa còng 7cm xanh",
+        "sku": "BI003",
+        "qty": 2,
+        "unit": "thùng",
+        "qty_base": 40
+      },
+      {
+        "product_text": "lông dầu đỏ",
+        "sku": "BU025",
+        "qty": 2,
+        "unit": "hộp",
+        "qty_base": 20
+      },
+      {
+        "product_text": "vở 96tr kẻ ngang",
+        "sku": "VO001",
+        "qty": 2,
+        "unit": "lốc",
+        "qty_base": 20
+      },
+      {
+        "product_text": "bìa màu hồng",
+        "sku": "GI010",
+        "qty": 10,
+        "unit": "xấp",
+        "qty_base": 10
+      }
+    ],
+    "delivery_date": "2026-11-07",
+    "delivery_address": "30 Cây Me, Tân Phú, TP.HCM",
+    "modifies_email_id": null,
+    "received_after_cutoff": true,
+    "flags": {}
+  },
+  {
+    "email_id": "E025",
+    "category": "new_order",
+    "customer_id": null,
+    "lines": [
+      {
+        "product_text": "Giấy note vàng 3x3",
+        "sku": "GI011",
+        "qty": 10,
+        "unit": "xấp",
+        "qty_base": 10
+      },
+      {
+        "product_text": "Kệ hồ sơ 3 tầng",
+        "sku": "TH003",
+        "qty": 2,
+        "unit": "cái",
+        "qty_base": 2
+      },
+      {
+        "product_text": "Máy tính bỏ túi 12 số",
+        "sku": "PI003",
+        "qty": 2,
+        "unit": "cái",
+        "qty_base": 2
+      },
+      {
+        "product_text": "Giấy bìa màu A4 hồng",
+        "sku": "GI010",
+        "qty": 3,
+        "unit": "thùng",
+        "qty_base": 15
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {
+      "unknown_sender": true
+    }
+  },
+  {
+    "email_id": "E026",
+    "category": "new_order",
+    "customer_id": "KH016",
+    "lines": [
+      {
+        "product_text": "bút bi xanh 0.7",
+        "sku": "BU004",
+        "qty": 36,
+        "unit": "hộp",
+        "qty_base": 720
+      },
+      {
+        "product_text": "Kẹp bướm 32mm",
+        "sku": "KE004",
+        "qty": 3,
+        "unit": "lốc",
+        "qty_base": 30
+      },
+      {
+        "product_text": "Gỡ ghim",
+        "sku": "KE012",
+        "qty": 3,
+        "unit": "cái",
+        "qty_base": 3
+      }
+    ],
+    "delivery_date": "2026-11-09",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {
+      "qty_anomaly_sku": "BU004"
+    }
+  },
+  {
+    "email_id": "E027",
+    "category": "new_order",
+    "customer_id": "KH010",
+    "lines": [
+      {
+        "product_text": "Bút xóa nước 12ml",
+        "sku": "BU029",
+        "qty": 2,
+        "unit": "hộp",
+        "qty_base": 24
+      },
+      {
+        "product_text": "giấy A4 70",
+        "sku": "GI001",
+        "qty": 2,
+        "unit": "thùng",
+        "qty_base": 10
+      },
+      {
+        "product_text": "bút chì kim 0.5",
+        "sku": "BU012",
+        "qty": null,
+        "unit": null,
+        "qty_base": null
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {
+      "missing": "no_qty"
+    }
+  },
+  {
+    "email_id": "E028",
+    "category": "new_order",
+    "customer_id": "KH020",
+    "lines": [
+      {
+        "product_text": "vở 200 trang",
+        "sku": "VO004",
+        "qty": 5,
+        "unit": "lốc",
+        "qty_base": 50
+      },
+      {
+        "product_text": "bút bi xanh",
+        "sku": "BU001",
+        "qty": 20,
+        "unit": "cây",
+        "qty_base": 20
+      }
+    ],
+    "delivery_date": "2026-11-05",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E029",
+    "category": "new_order",
+    "customer_id": "KH006",
+    "lines": [
+      {
+        "product_text": "Pin AAA",
+        "sku": "PI002",
+        "qty": 2,
+        "unit": "hộp",
+        "qty_base": 20
+      },
+      {
+        "product_text": "Mực dấu xanh",
+        "sku": "MU003",
+        "qty": 2,
+        "unit": "lọ",
+        "qty_base": 2
+      },
+      {
+        "product_text": "Hộp dấu",
+        "sku": "MU005",
+        "qty": 3,
+        "unit": "cái",
+        "qty_base": 3
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E030",
+    "category": "price_inquiry",
+    "customer_id": "KH009",
+    "lines": [],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E031",
+    "category": "new_order",
+    "customer_id": "KH026",
+    "lines": [
+      {
+        "product_text": "Vở 200 trang ô ly",
+        "sku": "VO004",
+        "qty": 10,
+        "unit": "cuốn",
+        "qty_base": 10
+      },
+      {
+        "product_text": "kẹp bướm số 51",
+        "sku": "KE006",
+        "qty": 2,
+        "unit": "lốc",
+        "qty_base": 20
+      },
+      {
+        "product_text": "Kéo học sinh",
+        "sku": "DC002",
+        "qty": 3,
+        "unit": "hộp",
+        "qty_base": 36
+      }
+    ],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": true,
+    "flags": {}
+  },
+  {
+    "email_id": "E033",
+    "category": "new_order",
+    "customer_id": "KH010",
+    "lines": [
+      {
+        "product_text": "mực dấu xanh",
+        "sku": "MU003",
+        "qty": 5,
+        "unit": "lọ",
+        "qty_base": 5
+      },
+      {
+        "product_text": "cắt keo",
+        "sku": "BK006",
+        "qty": 1,
+        "unit": "cái",
+        "qty_base": 1
+      },
+      {
+        "product_text": "bút xanh 0.5",
+        "sku": "BU001",
+        "qty": 1,
+        "unit": "hộp",
+        "qty_base": 20
+      }
+    ],
+    "delivery_date": "2026-11-09",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E036",
+    "category": "new_order",
+    "customer_id": "KH012",
+    "lines": [
+      {
+        "product_text": "bút chì kim 0.5",
+        "sku": "BU012",
+        "qty": 5,
+        "unit": "cây",
+        "qty_base": 5
+      },
+      {
+        "product_text": "băng keo giấy",
+        "sku": "BK004",
+        "qty": 2,
+        "unit": "lốc",
+        "qty_base": 12
+      },
+      {
+        "product_text": "Băng keo trong 5cm",
+        "sku": "BK001",
+        "qty": 2,
+        "unit": "cuộn",
+        "qty_base": 2
+      }
+    ],
+    "delivery_date": "2026-11-06",
+    "delivery_address": "63 Lộ Trúc Xanh, Quận 7, TP.HCM",
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E037",
+    "category": "new_order",
+    "customer_id": "KH028",
+    "lines": [
+      {
+        "product_text": "Bút dạ quang vàng",
+        "sku": "BU016",
+        "qty": 10,
+        "unit": "cây",
+        "qty_base": 10
+      },
+      {
+        "product_text": "Bút dạ quang hồng",
+        "sku": "BU018",
+        "qty": 3,
+        "unit": "cây",
+        "qty_base": 3
+      },
+      {
+        "product_text": "dây thun",
+        "sku": "KE014",
+        "qty": 5,
+        "unit": "bịch",
+        "qty_base": 5
+      },
+      {
+        "product_text": "Sổ danh thiếp 240 lá",
+        "sku": "VO008",
+        "qty": 2,
+        "unit": "cuốn",
+        "qty_base": 2
+      }
+    ],
+    "delivery_date": "2026-11-09",
+    "delivery_address": "147 Hoa Sứ, Quận 10, TP.HCM",
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E038",
+    "category": "new_order",
+    "customer_id": "KH028",
+    "lines": [
+      {
+        "product_text": "bút highlight hồng",
+        "sku": "BU018",
+        "qty": 10,
+        "unit": "cây",
+        "qty_base": 10
+      },
+      {
+        "product_text": "sổ da",
+        "sku": "VO007",
+        "qty": 3,
+        "unit": "cuốn",
+        "qty_base": 3
+      }
+    ],
+    "delivery_date": "2026-11-10",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E039",
+    "category": "new_order",
+    "customer_id": "KH024",
+    "lines": [
+      {
+        "product_text": "Khăn giấy hộp",
+        "sku": "BT005",
+        "qty": 10,
+        "unit": "hộp",
+        "qty_base": 10
+      },
+      {
+        "product_text": "Giấy A4 80gsm",
+        "sku": "GI002",
+        "qty": 5,
+        "unit": "ram",
+        "qty_base": 5
+      }
+    ],
+    "delivery_date": "2026-11-06",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E041",
+    "category": "new_order",
+    "customer_id": "KH017",
+    "lines": [
+      {
+        "product_text": "Giấy A4 70gsm",
+        "sku": "GI001",
+        "qty": 5,
+        "unit": "thùng",
+        "qty_base": 25
+      },
+      {
+        "product_text": "Hồ dán nước 30ml",
+        "sku": "DC009",
+        "qty": 5,
+        "unit": "chai",
+        "qty_base": 5
+      },
+      {
+        "product_text": "Kẹp bướm 15mm",
+        "sku": "KE001",
+        "qty": 2,
+        "unit": "hộp",
+        "qty_base": 2
+      },
+      {
+        "product_text": "Bút dạ quang xanh lá",
+        "sku": "BU017",
+        "qty": 5,
+        "unit": "hộp",
+        "qty_base": 50
+      }
+    ],
+    "delivery_date": "2026-11-06",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {}
+  },
+  {
+    "email_id": "E044",
+    "category": "new_order",
+    "customer_id": "KH013",
+    "lines": [
+      {
+        "product_text": "Hộp dấu",
+        "sku": "MU005",
+        "qty": 1,
+        "unit": "cái",
+        "qty_base": 1
+      },
+      {
+        "product_text": "Bút lông dầu đỏ",
+        "sku": "BU025",
+        "qty": 5,
+        "unit": "hộp",
+        "qty_base": 50
+      },
+      {
+        "product_text": "Bút lông dầu xanh",
+        "sku": "BU023",
+        "qty": 1,
+        "unit": "hộp",
+        "qty_base": 10
+      }
+    ],
+    "delivery_date": "2026-11-07",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": true,
+    "flags": {}
+  },
+  {
+    "email_id": "E045",
+    "category": "new_order",
+    "customer_id": "KH014",
+    "lines": [
+      {
+        "product_text": "thun",
+        "sku": "KE014",
+        "qty": 3,
+        "unit": "bịch",
+        "qty_base": 3
+      },
+      {
+        "product_text": "Bút lông kim đen 0.3mm",
+        "sku": "BU028",
+        "qty": 5,
+        "unit": "cây",
+        "qty_base": 5
+      },
+      {
+        "product_text": "Bút dạ quang cam",
+        "sku": "BU019",
+        "qty": 5,
+        "unit": "hộp",
+        "qty_base": 50
+      },
+      {
+        "product_text": "Bao thư trắng A5",
+        "sku": "BT002",
+        "qty": 3,
+        "unit": "lốc",
+        "qty_base": 30
+      }
+    ],
+    "delivery_date": "2026-11-06",
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": true,
+    "flags": {}
+  },
+  {
+    "email_id": "E056",
+    "category": "new_order",
+    "customer_id": "KH017",
+    "lines": [
+      {
+        "product_text": "Ruột chì kim 0.5mm",
+        "sku": "BU014",
+        "qty": 5,
+        "unit": "tuýp",
+        "qty_base": 5
+      },
+      {
+        "product_text": "Dập ghim số 3",
+        "sku": "KE011",
+        "qty": 2,
+        "unit": "cái",
+        "qty_base": 2
+      },
+      {
+        "product_text": "Sổ lò xo A5",
+        "sku": "VO005",
+        "qty": 10,
+        "unit": "cuốn",
+        "qty_base": 10
+      }
+    ],
+    "delivery_date": "2026-11-11",
+    "delivery_address": "177 Đường Cầu Tre, Quận 3, TP.HCM",
+    "modifies_email_id": null,
+    "received_after_cutoff": true,
+    "flags": {}
+  },
+  {
+    "email_id": "E057",
+    "category": "other",
+    "customer_id": "KH005",
+    "lines": [],
+    "delivery_date": null,
+    "delivery_address": null,
+    "modifies_email_id": null,
+    "received_after_cutoff": false,
+    "flags": {
+      "complaint": true
+    }
+  }
+]

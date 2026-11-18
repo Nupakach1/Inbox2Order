@@ -1,0 +1,188 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "title": "ai_extractions – mỗi lần gọi mô hình AI cho một email",
+    "required": [
+      "email_id",
+      "model",
+      "prompt_version",
+      "run_at",
+      "attempt",
+      "status",
+      "masked_input"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "email_id": {
+        "bsonType": "string",
+        "pattern": "^E[0-9]{3,}$",
+        "description": "Email được xử lý"
+      },
+      "model": {
+        "bsonType": "string",
+        "description": "Tên mô hình AI, ghi ở Phụ lục C"
+      },
+      "prompt_version": {
+        "bsonType": "string",
+        "description": "Phiên bản prompt, ví dụ extract_v1"
+      },
+      "run_at": {
+        "bsonType": "date",
+        "description": "Thời điểm gọi"
+      },
+      "attempt": {
+        "bsonType": "int",
+        "minimum": 1,
+        "maximum": 3,
+        "description": "Lần thử thứ mấy (NFR-06, EX-03)"
+      },
+      "status": {
+        "enum": [
+          "ok",
+          "timeout",
+          "invalid_json",
+          "api_error"
+        ],
+        "description": "Kết quả lần gọi (EX-03, EX-04)"
+      },
+      "latency_ms": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "description": "Thời gian phản hồi, dùng đo NFR-01"
+      },
+      "masked_input": {
+        "bsonType": "string",
+        "description": "Đúng nội dung đã gửi cho mô hình sau khi che thông tin cá nhân (BR-14, NFR-03)"
+      },
+      "mask_counts": {
+        "bsonType": "object",
+        "description": "Số chỗ đã che theo loại",
+        "properties": {
+          "phone": {
+            "bsonType": "int"
+          },
+          "bank_account": {
+            "bsonType": "int"
+          },
+          "signature": {
+            "bsonType": "int"
+          }
+        }
+      },
+      "output": {
+        "bsonType": [
+          "object",
+          "null"
+        ],
+        "description": "JSON mô hình trả về, lưu nguyên, không sửa tay; null nếu lỗi",
+        "required": [
+          "category",
+          "customer_name",
+          "lines",
+          "delivery_date",
+          "delivery_address",
+          "note"
+        ],
+        "properties": {
+          "category": {
+            "enum": [
+              "new_order",
+              "modify_order",
+              "price_inquiry",
+              "complaint",
+              "other"
+            ],
+            "description": "Phân loại (FR-03)"
+          },
+          "customer_name": {
+            "bsonType": [
+              "string",
+              "null"
+            ],
+            "description": "Tên khách như trong email; mã khách do hệ thống tra theo địa chỉ người gửi"
+          },
+          "lines": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "object",
+              "required": [
+                "product_text",
+                "qty",
+                "unit"
+              ],
+              "properties": {
+                "product_text": {
+                  "bsonType": "string",
+                  "description": "Tên sản phẩm như khách viết"
+                },
+                "qty": {
+                  "bsonType": [
+                    "double",
+                    "null"
+                  ],
+                  "description": "Số lượng như khách viết; null nếu email không nêu"
+                },
+                "unit": {
+                  "bsonType": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "Đơn vị như khách viết; null nếu không nêu"
+                },
+                "action": {
+                  "enum": [
+                    "add",
+                    "update",
+                    "remove"
+                  ],
+                  "description": "Chỉ có ở email sửa đơn (BR-09)"
+                }
+              }
+            },
+            "description": "Dòng hàng (FR-05); SKU do sku_matcher đối chiếu, không do AI"
+          },
+          "delivery_date": {
+            "bsonType": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "description": "Ngày giao YYYY-MM-DD hoặc null"
+          },
+          "delivery_address": {
+            "bsonType": [
+              "string",
+              "null"
+            ],
+            "description": "Địa chỉ giao nếu email nêu"
+          },
+          "note": {
+            "bsonType": [
+              "string",
+              "null"
+            ],
+            "description": "Ghi chú của khách"
+          },
+          "modifies_reference": {
+            "bsonType": [
+              "string",
+              "null"
+            ],
+            "description": "Câu trong email cho biết đơn nào bị sửa"
+          }
+        }
+      },
+      "error": {
+        "bsonType": [
+          "string",
+          "null"
+        ],
+        "description": "Thông báo lỗi khi status khác ok"
+      }
+    }
+  }
+}

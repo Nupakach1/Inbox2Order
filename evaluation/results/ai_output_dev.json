@@ -1,0 +1,1354 @@
+[
+  {
+    "email_id": "E001",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: don hang\nThời điểm nhận: 2026-11-02T08:20\n\nchi oi em lay giay dan nhan 2 xap, 5 cuon bang keo trong nho, 1 cuon so name card, but gel den 3 cay. giao ngay 03/11 giup em, giao ve chi nhanh 38 Cay Me, Quan 10, TP.HCM. cam on\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"giấy dán nhãn\", \"qty\": 2, \"unit\": \"xấp\"}, {\"product_text\": \"băng keo trong nhỏ\", \"qty\": 5, \"unit\": \"cuộn\"}, {\"product_text\": \"sổ name card\", \"qty\": 1, \"unit\": \"cuốn\"}, {\"product_text\": \"bút gel đen\", \"qty\": 3, \"unit\": \"cây\"}], \"delivery_date\": \"2026-11-03\", \"delivery_address\": \"38 Cây Me, Quận 10, TP.HCM\", \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "giấy dán nhãn",
+          "qty": 2,
+          "unit": "xấp"
+        },
+        {
+          "product_text": "băng keo trong nhỏ",
+          "qty": 5,
+          "unit": "cuộn"
+        },
+        {
+          "product_text": "sổ name card",
+          "qty": 1,
+          "unit": "cuốn"
+        },
+        {
+          "product_text": "bút gel đen",
+          "qty": 3,
+          "unit": "cây"
+        }
+      ],
+      "delivery_date": "2026-11-03",
+      "delivery_address": "38 Cây Me, Quận 10, TP.HCM",
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E002",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: \nThời điểm nhận: 2026-11-02T08:38\n\nanh ơi bên em lấy sổ name card 1 cuốn, 4h dạ quang vàng, 3c bút chì HB, phấn màu 5 hộp. giao thứ 3 tuần này giúp em. tks\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"sổ name card\", \"qty\": 1, \"unit\": \"cuốn\"}, {\"product_text\": \"dạ quang vàng\", \"qty\": 4, \"unit\": \"hộp\"}, {\"product_text\": \"bút chì HB\", \"qty\": 3, \"unit\": \"cây\"}, {\"product_text\": \"phấn màu\", \"qty\": 5, \"unit\": \"hộp\"}], \"delivery_date\": \"2026-11-03\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "sổ name card",
+          "qty": 1,
+          "unit": "cuốn"
+        },
+        {
+          "product_text": "dạ quang vàng",
+          "qty": 4,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "bút chì HB",
+          "qty": 3,
+          "unit": "cây"
+        },
+        {
+          "product_text": "phấn màu",
+          "qty": 5,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": "2026-11-03",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E003",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đơn đặt hàng văn phòng phẩm\nThời điểm nhận: 2026-11-02T09:32\n\nanh oi ben em lay 4 loc Bang keo hai mat 1cm + bang keo giay 10 cuon. giao ngay 05/11 giup em, giao ve chi nhanh 152 Pho Mai Vang, Quan 12, TP.HCM. Them it Gom trang nua. cam on\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"băng keo hai mặt 1cm\", \"qty\": 4, \"unit\": \"lốc\"}, {\"product_text\": \"băng keo giấy\", \"qty\": 10, \"unit\": \"cuộn\"}, {\"product_text\": \"gôm trắng\", \"qty\": null, \"unit\": null}], \"delivery_date\": \"2026-11-05\", \"delivery_address\": \"152 Phố Mai Vàng, Quận 12, TP.HCM\", \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "băng keo hai mặt 1cm",
+          "qty": 4,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "băng keo giấy",
+          "qty": 10,
+          "unit": "cuộn"
+        },
+        {
+          "product_text": "gôm trắng",
+          "qty": null,
+          "unit": null
+        }
+      ],
+      "delivery_date": "2026-11-05",
+      "delivery_address": "152 Phố Mai Vàng, Quận 12, TP.HCM",
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E007",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đơn hàng tháng 11\nThời điểm nhận: 2026-11-02T10:22\n\nChào em,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n+ 2 lốc Giấy note vàng 3x3\n+ 3 hộp Kẹp bướm 51mm\n+ 2 lốc Giấy note 5 màu 3x3\n+ 5 lốc keo giấy\n+ 4 hộp Bút lông dầu đỏ\n\nNhờ bên mình giao ngày 06/11.\nCảm ơn em.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Giấy note vàng 3x3\", \"qty\": 2, \"unit\": \"lốc\"}, {\"product_text\": \"Kẹp bướm 51mm\", \"qty\": 3, \"unit\": \"hộp\"}, {\"product_text\": \"Giấy note 5 màu 3x3\", \"qty\": 2, \"unit\": \"lốc\"}, {\"product_text\": \"keo giấy\", \"qty\": 5, \"unit\": \"lốc\"}, {\"product_text\": \"Bút lông dầu đỏ\", \"qty\": 4, \"unit\": \"hộp\"}], \"delivery_date\": \"2026-11-06\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Giấy note vàng 3x3",
+          "qty": 2,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "Kẹp bướm 51mm",
+          "qty": 3,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "Giấy note 5 màu 3x3",
+          "qty": 2,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "keo giấy",
+          "qty": 5,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "Bút lông dầu đỏ",
+          "qty": 4,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": "2026-11-06",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E008",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Re: đơn hàng\nThời điểm nhận: 2026-11-02T10:27\n\nanh ơi bên em lấy 3h lông dầu đen\nhồ dán 3 chai\n2 cái trình ký\n1 lốc kẹp bướm 32\n5h kim bấm số 10 nha c\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 0,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"lông dầu đen\", \"qty\": 3, \"unit\": \"hộp\"}, {\"product_text\": \"hồ dán\", \"qty\": 3, \"unit\": \"chai\"}, {\"product_text\": \"trình ký\", \"qty\": 2, \"unit\": \"cái\"}, {\"product_text\": \"kẹp bướm 32\", \"qty\": 1, \"unit\": \"lốc\"}, {\"product_text\": \"kim bấm số 10\", \"qty\": 5, \"unit\": \"hộp\"}], \"delivery_date\": null, \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "lông dầu đen",
+          "qty": 3,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "hồ dán",
+          "qty": 3,
+          "unit": "chai"
+        },
+        {
+          "product_text": "trình ký",
+          "qty": 2,
+          "unit": "cái"
+        },
+        {
+          "product_text": "kẹp bướm 32",
+          "qty": 1,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "kim bấm số 10",
+          "qty": 5,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": null,
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E012",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Re: Đơn hàng\nThời điểm nhận: 2026-11-02T13:56\n\nDear An Phát,\n\nBên em lấy hàng như sau:\n+ 5 hộp lông dầu xanh\n+ 5 lốc Băng keo trong 5cm\n+ 2 thùng A4 màu xanh\n+ 2 hộp món như lần trước\n\nNhờ bên mình giao ngày 03/11.\nCảm ơn bên mình nhiều.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"lông dầu xanh\", \"qty\": 5, \"unit\": \"hộp\"}, {\"product_text\": \"Băng keo trong 5cm\", \"qty\": 5, \"unit\": \"lốc\"}, {\"product_text\": \"A4 màu xanh\", \"qty\": 2, \"unit\": \"thùng\"}, {\"product_text\": \"món như lần trước\", \"qty\": 2, \"unit\": \"hộp\"}], \"delivery_date\": \"2026-11-03\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "lông dầu xanh",
+          "qty": 5,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "Băng keo trong 5cm",
+          "qty": 5,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "A4 màu xanh",
+          "qty": 2,
+          "unit": "thùng"
+        },
+        {
+          "product_text": "món như lần trước",
+          "qty": 2,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": "2026-11-03",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E013",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt VPP\nThời điểm nhận: 2026-11-02T17:09\n\nDear An Phát,\n\nEm gửi đơn hàng tuần này gồm:\n- bút ký xanh: 20 cây\n- note 5 màu: 5 lốc\n\nNhờ bên mình giao thứ 6 tuần này.\nTrân trọng.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"bút ký xanh\", \"qty\": 20, \"unit\": \"cây\"}, {\"product_text\": \"note 5 màu\", \"qty\": 5, \"unit\": \"lốc\"}], \"delivery_date\": \"2026-11-06\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "bút ký xanh",
+          "qty": 20,
+          "unit": "cây"
+        },
+        {
+          "product_text": "note 5 màu",
+          "qty": 5,
+          "unit": "lốc"
+        }
+      ],
+      "delivery_date": "2026-11-06",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E014",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt hàng tuần 45\nThời điểm nhận: 2026-11-02T19:08\n\nKính gửi Công ty An Phát,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n- khay hồ sơ 3 tầng: 3 cái\n- Túi khóa zip A4: 10 cái\n- Bút bi đỏ 0.7mm: 4 hộp\n\nTrân trọng.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"khay hồ sơ 3 tầng\", \"qty\": 3, \"unit\": \"cái\"}, {\"product_text\": \"Túi khóa zip A4\", \"qty\": 10, \"unit\": \"cái\"}, {\"product_text\": \"Bút bi đỏ 0.7mm\", \"qty\": 4, \"unit\": \"hộp\"}], \"delivery_date\": null, \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "khay hồ sơ 3 tầng",
+          "qty": 3,
+          "unit": "cái"
+        },
+        {
+          "product_text": "Túi khóa zip A4",
+          "qty": 10,
+          "unit": "cái"
+        },
+        {
+          "product_text": "Bút bi đỏ 0.7mm",
+          "qty": 4,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": null,
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E015",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: dat hang\nThời điểm nhận: 2026-11-03T08:37\n\ne gửi đơn nhé: giấy dán nhãn 2 xấp\nbìa nút xanh 1 lốc\nbăng keo trong nhỏ 10 cuộn. giao ngày 05/11 giúp em\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 0,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"giấy dán nhãn\", \"qty\": 2, \"unit\": \"xấp\"}, {\"product_text\": \"bìa nút xanh\", \"qty\": 1, \"unit\": \"lốc\"}, {\"product_text\": \"băng keo trong nhỏ\", \"qty\": 10, \"unit\": \"cuộn\"}], \"delivery_date\": \"2026-11-05\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "giấy dán nhãn",
+          "qty": 2,
+          "unit": "xấp"
+        },
+        {
+          "product_text": "bìa nút xanh",
+          "qty": 1,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "băng keo trong nhỏ",
+          "qty": 10,
+          "unit": "cuộn"
+        }
+      ],
+      "delivery_date": "2026-11-05",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E017",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt VPP\nThời điểm nhận: 2026-11-03T09:51\n\nChào em,\n\nEm gửi đơn hàng tuần này gồm:\n- Khăn giấy hộp: 3 thùng\n- băng keo đục: 2 lốc\n- Sổ danh thiếp 240 lá: 2 cuốn\n\nNhờ bên mình giao về chi nhánh 188 Đường Cầu Tre, Tân Bình, TP.HCM.\nTrân trọng.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Khăn giấy hộp\", \"qty\": 3, \"unit\": \"thùng\"}, {\"product_text\": \"băng keo đục\", \"qty\": 2, \"unit\": \"lốc\"}, {\"product_text\": \"Sổ danh thiếp 240 lá\", \"qty\": 2, \"unit\": \"cuốn\"}], \"delivery_date\": null, \"delivery_address\": \"188 Đường Cầu Tre, Tân Bình, TP.HCM\", \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Khăn giấy hộp",
+          "qty": 3,
+          "unit": "thùng"
+        },
+        {
+          "product_text": "băng keo đục",
+          "qty": 2,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "Sổ danh thiếp 240 lá",
+          "qty": 2,
+          "unit": "cuốn"
+        }
+      ],
+      "delivery_date": null,
+      "delivery_address": "188 Đường Cầu Tre, Tân Bình, TP.HCM",
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E019",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt VPP\nThời điểm nhận: 2026-11-03T09:58\n\nChào chị Hương,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n+ 2 lốc Băng keo giấy 2.4cm\n+ 3 hộp món như lần trước\n\nNhờ bên mình giao ngày 05/11.\nCảm ơn bên mình nhiều.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Băng keo giấy 2.4cm\", \"qty\": 2, \"unit\": \"lốc\"}, {\"product_text\": \"món như lần trước\", \"qty\": 3, \"unit\": \"hộp\"}], \"delivery_date\": \"2026-11-05\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Băng keo giấy 2.4cm",
+          "qty": 2,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "món như lần trước",
+          "qty": 3,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": "2026-11-05",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E032",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt hàng tuần 45\nThời điểm nhận: 2026-11-05T08:28\n\nChào anh/chị phòng kinh doanh An Phát,\n\nEm gửi đơn hàng tuần này gồm:\n1. túi zip – SL: 360 cái\n2. Vở 96 trang kẻ ngang – SL: 10 cuốn\n3. A4 màu xanh – SL: 3 thùng\n\nNhờ bên mình giao thứ 7 tuần này.\nCảm ơn bên mình nhiều.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"túi zip\", \"qty\": 360, \"unit\": \"cái\"}, {\"product_text\": \"Vở 96 trang kẻ ngang\", \"qty\": 10, \"unit\": \"cuốn\"}, {\"product_text\": \"A4 màu xanh\", \"qty\": 3, \"unit\": \"thùng\"}], \"delivery_date\": \"2026-11-07\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "túi zip",
+          "qty": 360,
+          "unit": "cái"
+        },
+        {
+          "product_text": "Vở 96 trang kẻ ngang",
+          "qty": 10,
+          "unit": "cuốn"
+        },
+        {
+          "product_text": "A4 màu xanh",
+          "qty": 3,
+          "unit": "thùng"
+        }
+      ],
+      "delivery_date": "2026-11-07",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E034",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt VPP\nThời điểm nhận: 2026-11-05T10:42\n\nChào chị Hương,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n- Giấy màu A4 xanh: 2 thùng\n- Vở 96 trang ô ly: 2 lốc\n- Ruột chì kim 0.7mm: 2 hộp\n- file 40 lá: 1 cuốn\n\nNhờ bên mình giao thứ 3 tuần sau.\nTrân trọng.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Giấy màu A4 xanh\", \"qty\": 2, \"unit\": \"thùng\"}, {\"product_text\": \"Vở 96 trang ô ly\", \"qty\": 2, \"unit\": \"lốc\"}, {\"product_text\": \"Ruột chì kim 0.7mm\", \"qty\": 2, \"unit\": \"hộp\"}, {\"product_text\": \"file 40 lá\", \"qty\": 1, \"unit\": \"cuốn\"}], \"delivery_date\": \"2026-11-10\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Giấy màu A4 xanh",
+          "qty": 2,
+          "unit": "thùng"
+        },
+        {
+          "product_text": "Vở 96 trang ô ly",
+          "qty": 2,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "Ruột chì kim 0.7mm",
+          "qty": 2,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "file 40 lá",
+          "qty": 1,
+          "unit": "cuốn"
+        }
+      ],
+      "delivery_date": "2026-11-10",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E035",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đơn hàng tháng 11\nThời điểm nhận: 2026-11-05T11:05\n\nKính gửi Công ty An Phát,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n+ 4 hộp Bút dạ quang cam\n+ 2 bịch Thun vòng\n+ 2 hộp bút chì HB\n+ 20 cây Bút lông kim đen 0.3mm\n\nNhờ bên mình giao thứ 6 tuần này.\nCảm ơn bên mình nhiều.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Bút dạ quang cam\", \"qty\": 4, \"unit\": \"hộp\"}, {\"product_text\": \"Thun vòng\", \"qty\": 2, \"unit\": \"bịch\"}, {\"product_text\": \"bút chì HB\", \"qty\": 2, \"unit\": \"hộp\"}, {\"product_text\": \"Bút lông kim đen 0.3mm\", \"qty\": 20, \"unit\": \"cây\"}], \"delivery_date\": \"2026-11-06\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Bút dạ quang cam",
+          "qty": 4,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "Thun vòng",
+          "qty": 2,
+          "unit": "bịch"
+        },
+        {
+          "product_text": "bút chì HB",
+          "qty": 2,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "Bút lông kim đen 0.3mm",
+          "qty": 20,
+          "unit": "cây"
+        }
+      ],
+      "delivery_date": "2026-11-06",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E040",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đơn đặt hàng văn phòng phẩm\nThời điểm nhận: 2026-11-05T15:32\n\nKính gửi Công ty An Phát,\n\nEm gửi đơn hàng tuần này gồm:\n+ 1 cái Bấm lỗ\n+ 5 hộp Bút chì gỗ HB\n+ 3 lốc ghim 3\n+ 10 cây bút ký đen\n\nNhờ bên mình giao ngày 07/11.\nThanks chị.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Bấm lỗ\", \"qty\": 1, \"unit\": \"cái\"}, {\"product_text\": \"Bút chì gỗ HB\", \"qty\": 5, \"unit\": \"hộp\"}, {\"product_text\": \"ghim 3\", \"qty\": 3, \"unit\": \"lốc\"}, {\"product_text\": \"bút ký đen\", \"qty\": 10, \"unit\": \"cây\"}], \"delivery_date\": \"2026-11-07\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Bấm lỗ",
+          "qty": 1,
+          "unit": "cái"
+        },
+        {
+          "product_text": "Bút chì gỗ HB",
+          "qty": 5,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "ghim 3",
+          "qty": 3,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "bút ký đen",
+          "qty": 10,
+          "unit": "cây"
+        }
+      ],
+      "delivery_date": "2026-11-07",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E042",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Re: Đặt VPP\nThời điểm nhận: 2026-11-05T17:29\n\nEm chào chị, sửa giúp em đơn gửi chiều nay: sửa Bút dạ quang vàng thành 13 cây, bỏ Bút dạ quang hồng. Các món khác giữ nguyên ạ.\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"modify_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Bút dạ quang vàng\", \"qty\": 13, \"unit\": \"cây\", \"action\": \"update\"}, {\"product_text\": \"Bút dạ quang hồng\", \"qty\": null, \"unit\": null, \"action\": \"remove\"}], \"delivery_date\": null, \"delivery_address\": null, \"note\": null, \"modifies_reference\": \"đơn gửi chiều nay\"}",
+    "output": {
+      "category": "modify_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Bút dạ quang vàng",
+          "qty": 13,
+          "unit": "cây",
+          "action": "update"
+        },
+        {
+          "product_text": "Bút dạ quang hồng",
+          "qty": null,
+          "unit": null,
+          "action": "remove"
+        }
+      ],
+      "delivery_date": null,
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": "đơn gửi chiều nay"
+    },
+    "error": null
+  },
+  {
+    "email_id": "E043",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Re: lấy hàng\nThời điểm nhận: 2026-11-05T17:38\n\nEm chào chị, sửa giúp em đơn gửi chiều nay: sửa bút highlight hồng thành 12 cây, bỏ sổ da. Các món khác giữ nguyên ạ.\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"modify_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"bút highlight hồng\", \"qty\": 12, \"unit\": \"cây\", \"action\": \"update\"}, {\"product_text\": \"sổ da\", \"qty\": null, \"unit\": null, \"action\": \"remove\"}], \"delivery_date\": null, \"delivery_address\": null, \"note\": null, \"modifies_reference\": \"đơn gửi chiều nay\"}",
+    "output": {
+      "category": "modify_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "bút highlight hồng",
+          "qty": 12,
+          "unit": "cây",
+          "action": "update"
+        },
+        {
+          "product_text": "sổ da",
+          "qty": null,
+          "unit": null,
+          "action": "remove"
+        }
+      ],
+      "delivery_date": null,
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": "đơn gửi chiều nay"
+    },
+    "error": null
+  },
+  {
+    "email_id": "E046",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt hàng tuần 45\nThời điểm nhận: 2026-11-06T08:45\n\nChào em,\n\nCông ty chúng tôi đặt các mặt hàng sau:\n- nam châm: 2 vỉ\n- bút chì kim 0.5: 10 cây\n- chì HB: 4 hộp\n- Túi khóa zip A4: 2 cái\n\nNhờ bên mình giao thứ 3 tuần sau, giao về chi nhánh 123 Cây Me, Thủ Đức, TP.HCM.\nCảm ơn em.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"nam châm\", \"qty\": 2, \"unit\": \"vỉ\"}, {\"product_text\": \"bút chì kim 0.5\", \"qty\": 10, \"unit\": \"cây\"}, {\"product_text\": \"chì HB\", \"qty\": 4, \"unit\": \"hộp\"}, {\"product_text\": \"Túi khóa zip A4\", \"qty\": 2, \"unit\": \"cái\"}], \"delivery_date\": \"2026-11-10\", \"delivery_address\": \"123 Cây Me, Thủ Đức, TP.HCM\", \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "nam châm",
+          "qty": 2,
+          "unit": "vỉ"
+        },
+        {
+          "product_text": "bút chì kim 0.5",
+          "qty": 10,
+          "unit": "cây"
+        },
+        {
+          "product_text": "chì HB",
+          "qty": 4,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "Túi khóa zip A4",
+          "qty": 2,
+          "unit": "cái"
+        }
+      ],
+      "delivery_date": "2026-11-10",
+      "delivery_address": "123 Cây Me, Thủ Đức, TP.HCM",
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E047",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt hàng tuần 45\nThời điểm nhận: 2026-11-06T10:17\n\nChào anh/chị phòng kinh doanh An Phát,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n1. Bút màu 12 màu – SL: 5 thùng\n2. băng xóa – SL: 3 hộp\n\nNhờ bên mình giao thứ 2 tuần sau.\nCảm ơn chị.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Bút màu 12 màu\", \"qty\": 5, \"unit\": \"thùng\"}, {\"product_text\": \"băng xóa\", \"qty\": 3, \"unit\": \"hộp\"}], \"delivery_date\": \"2026-11-09\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Bút màu 12 màu",
+          "qty": 5,
+          "unit": "thùng"
+        },
+        {
+          "product_text": "băng xóa",
+          "qty": 3,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": "2026-11-09",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E048",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Giao thiếu hàng\nThời điểm nhận: 2026-11-06T10:24\n\nChào chị,\nĐơn giao hôm thứ 3 bên em kiểm thì thiếu 2 lốc vở 96 trang kẻ ngang, nhờ chị kiểm tra và giao bù giúp em.\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"complaint\", \"customer_name\": null, \"lines\": [], \"delivery_date\": null, \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "complaint",
+      "customer_name": null,
+      "lines": [],
+      "delivery_date": null,
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E049",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đơn\nThời điểm nhận: 2026-11-06T10:55\n\nanh ơi bên em lấy 2 cái tampon, 3 lốc tập 200 ô ly, sổ danh thiếp 2 cuốn, 2 xấp giấy dán nhãn, túi nút xanh 5 lốc. giao thứ 7 tuần này giúp em. cảm ơn\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 0,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"tampon\", \"qty\": 2, \"unit\": \"cái\"}, {\"product_text\": \"tập 200 ô ly\", \"qty\": 3, \"unit\": \"lốc\"}, {\"product_text\": \"sổ danh thiếp\", \"qty\": 2, \"unit\": \"cuốn\"}, {\"product_text\": \"giấy dán nhãn\", \"qty\": 2, \"unit\": \"xấp\"}, {\"product_text\": \"túi nút xanh\", \"qty\": 5, \"unit\": \"lốc\"}], \"delivery_date\": \"2026-11-07\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "tampon",
+          "qty": 2,
+          "unit": "cái"
+        },
+        {
+          "product_text": "tập 200 ô ly",
+          "qty": 3,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "sổ danh thiếp",
+          "qty": 2,
+          "unit": "cuốn"
+        },
+        {
+          "product_text": "giấy dán nhãn",
+          "qty": 2,
+          "unit": "xấp"
+        },
+        {
+          "product_text": "túi nút xanh",
+          "qty": 5,
+          "unit": "lốc"
+        }
+      ],
+      "delivery_date": "2026-11-07",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E050",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Fw: Đặt hàng tuần 45\nThời điểm nhận: 2026-11-06T12:55\n\nEm gửi lại đơn lúc nãy, sợ chị chưa nhận được ạ.\n\nChào anh/chị phòng kinh doanh An Phát,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n1. Bút màu 12 màu – SL: 5 thùng\n2. băng xóa – SL: 3 hộp\n\nNhờ bên mình giao thứ 2 tuần sau.\nCảm ơn chị.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Bút màu 12 màu\", \"qty\": 5, \"unit\": \"thùng\"}, {\"product_text\": \"băng xóa\", \"qty\": 3, \"unit\": \"hộp\"}], \"delivery_date\": \"2026-11-09\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Bút màu 12 màu",
+          "qty": 5,
+          "unit": "thùng"
+        },
+        {
+          "product_text": "băng xóa",
+          "qty": 3,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": "2026-11-09",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E051",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Hỏi giá\nThời điểm nhận: 2026-11-06T14:57\n\nChào chị,\nCho em hỏi giá dập ghim số 3 khi lấy từ 10 cái trở lên thì có chiết khấu không ạ? Bên em đang so sánh để chốt đơn tháng sau.\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"price_inquiry\", \"customer_name\": null, \"lines\": [], \"delivery_date\": null, \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "price_inquiry",
+      "customer_name": null,
+      "lines": [],
+      "delivery_date": null,
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E052",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt hàng tuần 45\nThời điểm nhận: 2026-11-06T14:58\n\nKính gửi Công ty An Phát,\n\nNhà trường gửi đơn văn phòng phẩm như sau:\n- Kẹp bướm 51mm: 10 hộp\n- Băng keo đục 5cm: 10 cuộn\n- Bút lông bảng đen: 3 hộp\n\nCảm ơn bên mình nhiều.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Kẹp bướm 51mm\", \"qty\": 10, \"unit\": \"hộp\"}, {\"product_text\": \"Băng keo đục 5cm\", \"qty\": 10, \"unit\": \"cuộn\"}, {\"product_text\": \"Bút lông bảng đen\", \"qty\": 3, \"unit\": \"hộp\"}], \"delivery_date\": null, \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Kẹp bướm 51mm",
+          "qty": 10,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "Băng keo đục 5cm",
+          "qty": 10,
+          "unit": "cuộn"
+        },
+        {
+          "product_text": "Bút lông bảng đen",
+          "qty": 3,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": null,
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E053",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: don hang\nThời điểm nhận: 2026-11-06T15:25\n\ndon tuan nay nha c: but chi kim 0.7 10 cay + 3 cai keo van phong + 5 cuon tap 200 o ly + giay nhiet K80 3 cuon + 2 cai duc lo. giao ngay mai giup em nha c\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"bút chì kim 0.7\", \"qty\": 10, \"unit\": \"cây\"}, {\"product_text\": \"kéo văn phòng\", \"qty\": 3, \"unit\": \"cái\"}, {\"product_text\": \"tập 200 ô ly\", \"qty\": 5, \"unit\": \"cuốn\"}, {\"product_text\": \"giấy nhiệt K80\", \"qty\": 3, \"unit\": \"cuộn\"}, {\"product_text\": \"đục lỗ\", \"qty\": 2, \"unit\": \"cái\"}], \"delivery_date\": \"2026-11-07\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "bút chì kim 0.7",
+          "qty": 10,
+          "unit": "cây"
+        },
+        {
+          "product_text": "kéo văn phòng",
+          "qty": 3,
+          "unit": "cái"
+        },
+        {
+          "product_text": "tập 200 ô ly",
+          "qty": 5,
+          "unit": "cuốn"
+        },
+        {
+          "product_text": "giấy nhiệt K80",
+          "qty": 3,
+          "unit": "cuộn"
+        },
+        {
+          "product_text": "đục lỗ",
+          "qty": 2,
+          "unit": "cái"
+        }
+      ],
+      "delivery_date": "2026-11-07",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E054",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đơn\nThời điểm nhận: 2026-11-06T15:30\n\ndon tuan nay nha c: 2h long dau den + but gel xanh 3 hop + ho dan 2 hop + 4th bia cong 7 phan xanh + kep buom 32 5 hop. giao thu 2 tuan sau giup em nha c\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 0,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"lông dầu đen\", \"qty\": 2, \"unit\": \"hộp\"}, {\"product_text\": \"bút gel xanh\", \"qty\": 3, \"unit\": \"hộp\"}, {\"product_text\": \"hồ dán\", \"qty\": 2, \"unit\": \"hộp\"}, {\"product_text\": \"bìa còng 7 phân xanh\", \"qty\": 4, \"unit\": \"thùng\"}, {\"product_text\": \"kẹp bướm 32\", \"qty\": 5, \"unit\": \"hộp\"}], \"delivery_date\": \"2026-11-09\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "lông dầu đen",
+          "qty": 2,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "bút gel xanh",
+          "qty": 3,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "hồ dán",
+          "qty": 2,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "bìa còng 7 phân xanh",
+          "qty": 4,
+          "unit": "thùng"
+        },
+        {
+          "product_text": "kẹp bướm 32",
+          "qty": 5,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": "2026-11-09",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E055",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt VPP\nThời điểm nhận: 2026-11-06T16:20\n\nChào em,\n\nEm gửi đơn hàng tuần này gồm:\n- dây thun: 5 bịch\n- kẹp bướm số 32: 4 lốc\n- Pin AAA: 10 vỉ\n- Bao đựng thẻ nhựa: 3 lốc\n- bìa lá: 10 cái\n\nNhờ bên mình giao ngày 09/11.\nCảm ơn em.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"dây thun\", \"qty\": 5, \"unit\": \"bịch\"}, {\"product_text\": \"kẹp bướm số 32\", \"qty\": 4, \"unit\": \"lốc\"}, {\"product_text\": \"Pin AAA\", \"qty\": 10, \"unit\": \"vỉ\"}, {\"product_text\": \"Bao đựng thẻ nhựa\", \"qty\": 3, \"unit\": \"lốc\"}, {\"product_text\": \"bìa lá\", \"qty\": 10, \"unit\": \"cái\"}], \"delivery_date\": \"2026-11-09\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "dây thun",
+          "qty": 5,
+          "unit": "bịch"
+        },
+        {
+          "product_text": "kẹp bướm số 32",
+          "qty": 4,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "Pin AAA",
+          "qty": 10,
+          "unit": "vỉ"
+        },
+        {
+          "product_text": "Bao đựng thẻ nhựa",
+          "qty": 3,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "bìa lá",
+          "qty": 10,
+          "unit": "cái"
+        }
+      ],
+      "delivery_date": "2026-11-09",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E058",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đặt hàng tuần 45\nThời điểm nhận: 2026-11-07T13:07\n\nDear An Phát,\n\nBên em gửi đơn đặt hàng văn phòng phẩm như sau:\n+ 3 vỉ Pin AAA\n+ 5 cái Bìa còng 7cm xanh\n+ 3 hộp lông dầu đỏ\n+ 2 cây bút ký đen\n+ 1 cái Hộp dấu\n\nNhờ bên mình giao thứ 3 tuần sau.\nTrân trọng.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Pin AAA\", \"qty\": 3, \"unit\": \"vỉ\"}, {\"product_text\": \"Bìa còng 7cm xanh\", \"qty\": 5, \"unit\": \"cái\"}, {\"product_text\": \"lông dầu đỏ\", \"qty\": 3, \"unit\": \"hộp\"}, {\"product_text\": \"bút ký đen\", \"qty\": 2, \"unit\": \"cây\"}, {\"product_text\": \"Hộp dấu\", \"qty\": 1, \"unit\": \"cái\"}], \"delivery_date\": \"2026-11-10\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Pin AAA",
+          "qty": 3,
+          "unit": "vỉ"
+        },
+        {
+          "product_text": "Bìa còng 7cm xanh",
+          "qty": 5,
+          "unit": "cái"
+        },
+        {
+          "product_text": "lông dầu đỏ",
+          "qty": 3,
+          "unit": "hộp"
+        },
+        {
+          "product_text": "bút ký đen",
+          "qty": 2,
+          "unit": "cây"
+        },
+        {
+          "product_text": "Hộp dấu",
+          "qty": 1,
+          "unit": "cái"
+        }
+      ],
+      "delivery_date": "2026-11-10",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E059",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Đơn hàng tháng 11\nThời điểm nhận: 2026-11-07T18:50\n\nChào anh/chị phòng kinh doanh An Phát,\n\nEm gửi đơn hàng tuần này gồm:\n1. A4 màu xanh – SL: 10 ram\n2. Vở 96 trang kẻ ngang – SL: 3 lốc\n3. Hộp dấu – SL: 1 cái\n4. băng keo giấy – SL: 10 cuộn\n5. Kẹp bướm 15mm – SL: 2 hộp\n\nNhờ bên mình giao thứ 2 tuần sau.\nThanks chị.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"A4 màu xanh\", \"qty\": 10, \"unit\": \"ram\"}, {\"product_text\": \"Vở 96 trang kẻ ngang\", \"qty\": 3, \"unit\": \"lốc\"}, {\"product_text\": \"Hộp dấu\", \"qty\": 1, \"unit\": \"cái\"}, {\"product_text\": \"băng keo giấy\", \"qty\": 10, \"unit\": \"cuộn\"}, {\"product_text\": \"Kẹp bướm 15mm\", \"qty\": 2, \"unit\": \"hộp\"}], \"delivery_date\": \"2026-11-09\", \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "A4 màu xanh",
+          "qty": 10,
+          "unit": "ram"
+        },
+        {
+          "product_text": "Vở 96 trang kẻ ngang",
+          "qty": 3,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "Hộp dấu",
+          "qty": 1,
+          "unit": "cái"
+        },
+        {
+          "product_text": "băng keo giấy",
+          "qty": 10,
+          "unit": "cuộn"
+        },
+        {
+          "product_text": "Kẹp bướm 15mm",
+          "qty": 2,
+          "unit": "hộp"
+        }
+      ],
+      "delivery_date": "2026-11-09",
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  },
+  {
+    "email_id": "E060",
+    "model": "Claude Opus 5.5",
+    "prompt_version": "extract_v1",
+    "channel": "Giao diện chat Claude (claude.ai), không qua API",
+    "run_at": "2026-11-17T13:30:00+07:00",
+    "attempt": 1,
+    "status": "ok",
+    "latency_ms": null,
+    "masked_input": "Tiêu đề: Re: Đơn hàng\nThời điểm nhận: 2026-11-07T19:01\n\nChào anh/chị phòng kinh doanh An Phát,\n\nBên em gửi đơn đặt hàng văn phòng phẩm như sau:\n1. Hộp đựng hồ sơ 10cm – SL: 2 cái\n2. Bao đựng thẻ nhựa – SL: 2 lốc\n3. bút ký xanh – SL: 3 cây\n4. keo đục – SL: 5 cuộn\n\nCảm ơn bên mình nhiều.\n\n[CHỮ KÝ]",
+    "mask_counts": {
+      "phone": 1,
+      "bank_account": 0,
+      "signature": 1
+    },
+    "raw_response": "{\"category\": \"new_order\", \"customer_name\": null, \"lines\": [{\"product_text\": \"Hộp đựng hồ sơ 10cm\", \"qty\": 2, \"unit\": \"cái\"}, {\"product_text\": \"Bao đựng thẻ nhựa\", \"qty\": 2, \"unit\": \"lốc\"}, {\"product_text\": \"bút ký xanh\", \"qty\": 3, \"unit\": \"cây\"}, {\"product_text\": \"keo đục\", \"qty\": 5, \"unit\": \"cuộn\"}], \"delivery_date\": null, \"delivery_address\": null, \"note\": null, \"modifies_reference\": null}",
+    "output": {
+      "category": "new_order",
+      "customer_name": null,
+      "lines": [
+        {
+          "product_text": "Hộp đựng hồ sơ 10cm",
+          "qty": 2,
+          "unit": "cái"
+        },
+        {
+          "product_text": "Bao đựng thẻ nhựa",
+          "qty": 2,
+          "unit": "lốc"
+        },
+        {
+          "product_text": "bút ký xanh",
+          "qty": 3,
+          "unit": "cây"
+        },
+        {
+          "product_text": "keo đục",
+          "qty": 5,
+          "unit": "cuộn"
+        }
+      ],
+      "delivery_date": null,
+      "delivery_address": null,
+      "note": null,
+      "modifies_reference": null
+    },
+    "error": null
+  }
+]

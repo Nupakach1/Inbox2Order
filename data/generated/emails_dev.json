@@ -1,0 +1,272 @@
+[
+  {
+    "email_id": "E001",
+    "from_email": "kiet@songdomedia.example.vn",
+    "from_name": "Đỗ Tuấn Kiệt",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "don hang",
+    "body": "chi oi em lay giay dan nhan 2 xap, 5 cuon bang keo trong nho, 1 cuon so name card, but gel den 3 cay. giao ngay 03/11 giup em, giao ve chi nhanh 38 Cay Me, Quan 10, TP.HCM. cam on\nĐỗ Tuấn Kiệt\nCông ty TNHH Quảng cáo Sóng Đỏ Media\nĐT: 0123 642 938",
+    "received_at": "2026-11-02T08:20"
+  },
+  {
+    "email_id": "E002",
+    "from_email": "loc@giadinhvui.example.vn",
+    "from_name": "Anh Lộc",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "",
+    "body": "anh ơi bên em lấy sổ name card 1 cuốn, 4h dạ quang vàng, 3c bút chì HB, phấn màu 5 hộp. giao thứ 3 tuần này giúp em. tks\nAnh Lộc\nNhà sách Gia Đình Vui\nĐT: 0123 194 482",
+    "received_at": "2026-11-02T08:38"
+  },
+  {
+    "email_id": "E003",
+    "from_email": "duyen@sieutoc24h.example.vn",
+    "from_name": "Chị Duyên",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đơn đặt hàng văn phòng phẩm",
+    "body": "anh oi ben em lay 4 loc Bang keo hai mat 1cm + bang keo giay 10 cuon. giao ngay 05/11 giup em, giao ve chi nhanh 152 Pho Mai Vang, Quan 12, TP.HCM. Them it Gom trang nua. cam on\nChị Duyên\nCửa hàng Photocopy Siêu Tốc 24h\nĐT: 0123 499 583",
+    "received_at": "2026-11-02T09:32"
+  },
+  {
+    "email_id": "E007",
+    "from_email": "vanphong@choinonphumy.example.vn",
+    "from_name": "Cô Lan",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đơn hàng tháng 11",
+    "body": "Chào em,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n+ 2 lốc Giấy note vàng 3x3\n+ 3 hộp Kẹp bướm 51mm\n+ 2 lốc Giấy note 5 màu 3x3\n+ 5 lốc keo giấy\n+ 4 hộp Bút lông dầu đỏ\n\nNhờ bên mình giao ngày 06/11.\nCảm ơn em.\n\nCô Lan\nTrường Mầm non Chồi Non Phú Mỹ\nĐT: 0123 613 835",
+    "received_at": "2026-11-02T10:22"
+  },
+  {
+    "email_id": "E008",
+    "from_email": "men@dongxuvang.example.vn",
+    "from_name": "Chị Mến",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Re: đơn hàng",
+    "body": "anh ơi bên em lấy 3h lông dầu đen\nhồ dán 3 chai\n2 cái trình ký\n1 lốc kẹp bướm 32\n5h kim bấm số 10 nha c\nChị Mến",
+    "received_at": "2026-11-02T10:27"
+  },
+  {
+    "email_id": "E012",
+    "from_email": "bay@baymap.example.vn",
+    "from_name": "Anh Bảy",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Re: Đơn hàng",
+    "body": "Dear An Phát,\n\nBên em lấy hàng như sau:\n+ 5 hộp lông dầu xanh\n+ 5 lốc Băng keo trong 5cm\n+ 2 thùng A4 màu xanh\n+ 2 hộp món như lần trước\n\nNhờ bên mình giao ngày 03/11.\nCảm ơn bên mình nhiều.\n\nAnh Bảy\nTạp hóa Văn phòng phẩm Bảy Mập\nĐT: 0123 588 224",
+    "received_at": "2026-11-02T13:56"
+  },
+  {
+    "email_id": "E013",
+    "from_email": "tram@sovang.example.vn",
+    "from_name": "Lê Ngọc Trâm",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt VPP",
+    "body": "Dear An Phát,\n\nEm gửi đơn hàng tuần này gồm:\n- bút ký xanh: 20 cây\n- note 5 màu: 5 lốc\n\nNhờ bên mình giao thứ 6 tuần này.\nTrân trọng.\n\nLê Ngọc Trâm\nCông ty TNHH Kế toán Sổ Vàng\nĐT: 0123 159 548",
+    "received_at": "2026-11-02T17:09"
+  },
+  {
+    "email_id": "E014",
+    "from_email": "bao@thaomocvietan.example.vn",
+    "from_name": "Phạm Quốc Bảo",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt hàng tuần 45",
+    "body": "Kính gửi Công ty An Phát,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n- khay hồ sơ 3 tầng: 3 cái\n- Túi khóa zip A4: 10 cái\n- Bút bi đỏ 0.7mm: 4 hộp\n\nTrân trọng.\n\nPhạm Quốc Bảo\nCông ty TNHH Dược phẩm Thảo Mộc Việt An\nĐT: 0123 938 106",
+    "received_at": "2026-11-02T19:08"
+  },
+  {
+    "email_id": "E015",
+    "from_email": "kiet@songdomedia.example.vn",
+    "from_name": "Đỗ Tuấn Kiệt",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "dat hang",
+    "body": "e gửi đơn nhé: giấy dán nhãn 2 xấp\nbìa nút xanh 1 lốc\nbăng keo trong nhỏ 10 cuộn. giao ngày 05/11 giúp em\nĐỗ Tuấn Kiệt",
+    "received_at": "2026-11-03T08:37"
+  },
+  {
+    "email_id": "E017",
+    "from_email": "han@huongsang.example.vn",
+    "from_name": "Huỳnh Gia Hân",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt VPP",
+    "body": "Chào em,\n\nEm gửi đơn hàng tuần này gồm:\n- Khăn giấy hộp: 3 thùng\n- băng keo đục: 2 lốc\n- Sổ danh thiếp 240 lá: 2 cuốn\n\nNhờ bên mình giao về chi nhánh 188 Đường Cầu Tre, Tân Bình, TP.HCM.\nTrân trọng.\n\nHuỳnh Gia Hân\nCông ty CP Đào tạo Kỹ năng Hướng Sáng\nĐT: 0123 821 293",
+    "received_at": "2026-11-03T09:51"
+  },
+  {
+    "email_id": "E019",
+    "from_email": "hong@nenvung.example.vn",
+    "from_name": "Lý Thị Hồng",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt VPP",
+    "body": "Chào chị Hương,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n+ 2 lốc Băng keo giấy 2.4cm\n+ 3 hộp món như lần trước\n\nNhờ bên mình giao ngày 05/11.\nCảm ơn bên mình nhiều.\n\nLý Thị Hồng\nCông ty CP Xây dựng Nền Vững\nĐT: 0123 567 109",
+    "received_at": "2026-11-03T09:58"
+  },
+  {
+    "email_id": "E032",
+    "from_email": "ha@lamvienstudio.example.vn",
+    "from_name": "Nguyễn Thu Hà",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt hàng tuần 45",
+    "body": "Chào anh/chị phòng kinh doanh An Phát,\n\nEm gửi đơn hàng tuần này gồm:\n1. túi zip – SL: 360 cái\n2. Vở 96 trang kẻ ngang – SL: 10 cuốn\n3. A4 màu xanh – SL: 3 thùng\n\nNhờ bên mình giao thứ 7 tuần này.\nCảm ơn bên mình nhiều.\n\nNguyễn Thu Hà\nCông ty TNHH Kiến trúc Lam Viên Studio\nĐT: 0123 200 798",
+    "received_at": "2026-11-05T08:28"
+  },
+  {
+    "email_id": "E034",
+    "from_email": "tai@lame.example.vn",
+    "from_name": "Anh Tài",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt VPP",
+    "body": "Chào chị Hương,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n- Giấy màu A4 xanh: 2 thùng\n- Vở 96 trang ô ly: 2 lốc\n- Ruột chì kim 0.7mm: 2 hộp\n- file 40 lá: 1 cuốn\n\nNhờ bên mình giao thứ 3 tuần sau.\nTrân trọng.\n\nAnh Tài\nCửa hàng Photo In ấn Lá Me\nĐT: 0123 569 957",
+    "received_at": "2026-11-05T10:42"
+  },
+  {
+    "email_id": "E035",
+    "from_email": "vy@cauvong6sac.example.vn",
+    "from_name": "Phan Thảo Vy",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đơn hàng tháng 11",
+    "body": "Kính gửi Công ty An Phát,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n+ 4 hộp Bút dạ quang cam\n+ 2 bịch Thun vòng\n+ 2 hộp bút chì HB\n+ 20 cây Bút lông kim đen 0.3mm\n\nNhờ bên mình giao thứ 6 tuần này.\nCảm ơn bên mình nhiều.\n\nPhan Thảo Vy\nTrung tâm Ngoại ngữ Cầu Vồng Sáu Sắc\nĐT: 0123 308 682",
+    "received_at": "2026-11-05T11:05"
+  },
+  {
+    "email_id": "E040",
+    "from_email": "vanphong@hoamixanh.example.vn",
+    "from_name": "Thầy Sang",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đơn đặt hàng văn phòng phẩm",
+    "body": "Kính gửi Công ty An Phát,\n\nEm gửi đơn hàng tuần này gồm:\n+ 1 cái Bấm lỗ\n+ 5 hộp Bút chì gỗ HB\n+ 3 lốc ghim 3\n+ 10 cây bút ký đen\n\nNhờ bên mình giao ngày 07/11.\nThanks chị.\n\nThầy Sang\nTrung tâm Năng khiếu Họa Mi Xanh\nĐT: 0123 253 626",
+    "received_at": "2026-11-05T15:32"
+  },
+  {
+    "email_id": "E042",
+    "from_email": "loc@giadinhvui.example.vn",
+    "from_name": "Anh Lộc",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Re: Đặt VPP",
+    "body": "Em chào chị, sửa giúp em đơn gửi chiều nay: sửa Bút dạ quang vàng thành 13 cây, bỏ Bút dạ quang hồng. Các món khác giữ nguyên ạ.\nAnh Lộc\nNhà sách Gia Đình Vui\nĐT: 0123 194 482",
+    "received_at": "2026-11-05T17:29"
+  },
+  {
+    "email_id": "E043",
+    "from_email": "loc@giadinhvui.example.vn",
+    "from_name": "Anh Lộc",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Re: lấy hàng",
+    "body": "Em chào chị, sửa giúp em đơn gửi chiều nay: sửa bút highlight hồng thành 12 cây, bỏ sổ da. Các món khác giữ nguyên ạ.\nAnh Lộc\nNhà sách Gia Đình Vui\nĐT: 0123 194 482",
+    "received_at": "2026-11-05T17:38"
+  },
+  {
+    "email_id": "E046",
+    "from_email": "hong@nenvung.example.vn",
+    "from_name": "Lý Thị Hồng",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt hàng tuần 45",
+    "body": "Chào em,\n\nCông ty chúng tôi đặt các mặt hàng sau:\n- nam châm: 2 vỉ\n- bút chì kim 0.5: 10 cây\n- chì HB: 4 hộp\n- Túi khóa zip A4: 2 cái\n\nNhờ bên mình giao thứ 3 tuần sau, giao về chi nhánh 123 Cây Me, Thủ Đức, TP.HCM.\nCảm ơn em.\n\nLý Thị Hồng\nCông ty CP Xây dựng Nền Vững\nĐT: 0123 567 109",
+    "received_at": "2026-11-06T08:45"
+  },
+  {
+    "email_id": "E047",
+    "from_email": "vanphong@butthep.example.vn",
+    "from_name": "Thầy Phong",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt hàng tuần 45",
+    "body": "Chào anh/chị phòng kinh doanh An Phát,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n1. Bút màu 12 màu – SL: 5 thùng\n2. băng xóa – SL: 3 hộp\n\nNhờ bên mình giao thứ 2 tuần sau.\nCảm ơn chị.\n\nThầy Phong\nTrung tâm Luyện thi Bút Thép\nĐT: 0123 800 656",
+    "received_at": "2026-11-06T10:17"
+  },
+  {
+    "email_id": "E048",
+    "from_email": "vanphong@thongocbt.example.vn",
+    "from_name": "Cô Ngân",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Giao thiếu hàng",
+    "body": "Chào chị,\nĐơn giao hôm thứ 3 bên em kiểm thì thiếu 2 lốc vở 96 trang kẻ ngang, nhờ chị kiểm tra và giao bù giúp em.\nCô Ngân\nTrường Mầm non Thỏ Ngọc Bình Thạnh\nĐT: 0123 684 735",
+    "received_at": "2026-11-06T10:24"
+  },
+  {
+    "email_id": "E049",
+    "from_email": "kiet@songdomedia.example.vn",
+    "from_name": "Đỗ Tuấn Kiệt",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đơn",
+    "body": "anh ơi bên em lấy 2 cái tampon, 3 lốc tập 200 ô ly, sổ danh thiếp 2 cuốn, 2 xấp giấy dán nhãn, túi nút xanh 5 lốc. giao thứ 7 tuần này giúp em. cảm ơn\nĐỗ Tuấn Kiệt",
+    "received_at": "2026-11-06T10:55"
+  },
+  {
+    "email_id": "E050",
+    "from_email": "vanphong@butthep.example.vn",
+    "from_name": "Thầy Phong",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Fw: Đặt hàng tuần 45",
+    "body": "Em gửi lại đơn lúc nãy, sợ chị chưa nhận được ạ.\n\nChào anh/chị phòng kinh doanh An Phát,\n\nNhờ chị lên đơn giúp em các món dưới đây:\n1. Bút màu 12 màu – SL: 5 thùng\n2. băng xóa – SL: 3 hộp\n\nNhờ bên mình giao thứ 2 tuần sau.\nCảm ơn chị.\n\nThầy Phong\nTrung tâm Luyện thi Bút Thép\nĐT: 0123 800 656",
+    "received_at": "2026-11-06T12:55"
+  },
+  {
+    "email_id": "E051",
+    "from_email": "toan@tranggiaythom.example.vn",
+    "from_name": "Anh Toàn",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Hỏi giá",
+    "body": "Chào chị,\nCho em hỏi giá dập ghim số 3 khi lấy từ 10 cái trở lên thì có chiết khấu không ạ? Bên em đang so sánh để chốt đơn tháng sau.\nAnh Toàn\nNhà sách nhỏ Trang Giấy Thơm\nĐT: 0123 240 760",
+    "received_at": "2026-11-06T14:57"
+  },
+  {
+    "email_id": "E052",
+    "from_email": "vanphong@socnaugv.example.vn",
+    "from_name": "Cô Hạnh",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt hàng tuần 45",
+    "body": "Kính gửi Công ty An Phát,\n\nNhà trường gửi đơn văn phòng phẩm như sau:\n- Kẹp bướm 51mm: 10 hộp\n- Băng keo đục 5cm: 10 cuộn\n- Bút lông bảng đen: 3 hộp\n\nCảm ơn bên mình nhiều.\n\nCô Hạnh\nTrường Mầm non Sóc Nâu Gò Vấp\nĐT: 0123 212 897",
+    "received_at": "2026-11-06T14:58"
+  },
+  {
+    "email_id": "E053",
+    "from_email": "vanphong@hatgiongnho.example.vn",
+    "from_name": "Cô Diễm",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "don hang",
+    "body": "don tuan nay nha c: but chi kim 0.7 10 cay + 3 cai keo van phong + 5 cuon tap 200 o ly + giay nhiet K80 3 cuon + 2 cai duc lo. giao ngay mai giup em nha c\nCô Diễm\nTrường Tiểu học Hạt Giống Nhỏ\nĐT: 0123 754 904",
+    "received_at": "2026-11-06T15:25"
+  },
+  {
+    "email_id": "E054",
+    "from_email": "men@dongxuvang.example.vn",
+    "from_name": "Chị Mến",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đơn",
+    "body": "don tuan nay nha c: 2h long dau den + but gel xanh 3 hop + ho dan 2 hop + 4th bia cong 7 phan xanh + kep buom 32 5 hop. giao thu 2 tuan sau giup em nha c\nChị Mến",
+    "received_at": "2026-11-06T15:30"
+  },
+  {
+    "email_id": "E055",
+    "from_email": "tam@maybac.example.vn",
+    "from_name": "Võ Thanh Tâm",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt VPP",
+    "body": "Chào em,\n\nEm gửi đơn hàng tuần này gồm:\n- dây thun: 5 bịch\n- kẹp bướm số 32: 4 lốc\n- Pin AAA: 10 vỉ\n- Bao đựng thẻ nhựa: 3 lốc\n- bìa lá: 10 cái\n\nNhờ bên mình giao ngày 09/11.\nCảm ơn em.\n\nVõ Thanh Tâm\nCông ty CP Phần mềm Mây Bạc\nĐT: 0123 393 611",
+    "received_at": "2026-11-06T16:20"
+  },
+  {
+    "email_id": "E058",
+    "from_email": "thinh@canhdieudo.example.vn",
+    "from_name": "Mai Đức Thịnh",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đặt hàng tuần 45",
+    "body": "Dear An Phát,\n\nBên em gửi đơn đặt hàng văn phòng phẩm như sau:\n+ 3 vỉ Pin AAA\n+ 5 cái Bìa còng 7cm xanh\n+ 3 hộp lông dầu đỏ\n+ 2 cây bút ký đen\n+ 1 cái Hộp dấu\n\nNhờ bên mình giao thứ 3 tuần sau.\nTrân trọng.\n\nMai Đức Thịnh\nCông ty TNHH Du lịch Cánh Diều Đỏ\nĐT: 0123 916 596",
+    "received_at": "2026-11-07T13:07"
+  },
+  {
+    "email_id": "E059",
+    "from_email": "ha@lamvienstudio.example.vn",
+    "from_name": "Nguyễn Thu Hà",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Đơn hàng tháng 11",
+    "body": "Chào anh/chị phòng kinh doanh An Phát,\n\nEm gửi đơn hàng tuần này gồm:\n1. A4 màu xanh – SL: 10 ram\n2. Vở 96 trang kẻ ngang – SL: 3 lốc\n3. Hộp dấu – SL: 1 cái\n4. băng keo giấy – SL: 10 cuộn\n5. Kẹp bướm 15mm – SL: 2 hộp\n\nNhờ bên mình giao thứ 2 tuần sau.\nThanks chị.\n\nNguyễn Thu Hà\nCông ty TNHH Kiến trúc Lam Viên Studio\nĐT: 0123 200 798",
+    "received_at": "2026-11-07T18:50"
+  },
+  {
+    "email_id": "E060",
+    "from_email": "luc@bepquenha.example.vn",
+    "from_name": "Ngô Văn Lực",
+    "to_email": "donhang@anphat.example.vn",
+    "subject": "Re: Đơn hàng",
+    "body": "Chào anh/chị phòng kinh doanh An Phát,\n\nBên em gửi đơn đặt hàng văn phòng phẩm như sau:\n1. Hộp đựng hồ sơ 10cm – SL: 2 cái\n2. Bao đựng thẻ nhựa – SL: 2 lốc\n3. bút ký xanh – SL: 3 cây\n4. keo đục – SL: 5 cuộn\n\nCảm ơn bên mình nhiều.\n\nNgô Văn Lực\nCông ty TNHH Thực phẩm Bếp Quê Nhà\nĐT: 0123 785 805",
+    "received_at": "2026-11-07T19:01"
+  }
+]

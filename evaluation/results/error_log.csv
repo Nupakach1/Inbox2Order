@@ -1,0 +1,8 @@
+﻿email_id,truong,nhom_loi,chi_tiet
+E006,SKU trên đơn nháp,Sai hoặc thiếu SKU,"'sổ name card': điền None, đúng VO008 (unmatched)"
+E018,SKU trên đơn nháp,Sai hoặc thiếu SKU,"'băng dính nhỏ': điền None, đúng BK002 (unmatched)"
+E018,SKU trên đơn nháp,Sai hoặc thiếu SKU,"'tampon': điền None, đúng MU005 (unmatched)"
+E021,SKU trên đơn nháp,Sai hoặc thiếu SKU,"'xóa kéo': điền None, đúng BU030 (unmatched)"
+E022,SKU trên đơn nháp,Sai hoặc thiếu SKU,"'pin 3A': điền PI001, đúng PI002 (suggested)"
+E037,SKU trên đơn nháp,Sai hoặc thiếu SKU,"'dây thun': điền None, đúng KE014 (unmatched)"
+E038,SKU trên đơn nháp,Sai hoặc thiếu SKU,"'bút highlight hồng': điền None, đúng BU018 (unmatched)"

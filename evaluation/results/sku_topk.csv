@@ -1,0 +1,85 @@
+﻿email_id,ten_dap_an,sku_dap_an,ten_ai,top1,diem,trang_thai,top3,dung_top1,dung_top3,top1_tren_ten_dap_an
+E004,tập 200 ô ly,VO004,tập 200 ô ly,VO004,80,suggested,VO004 VO002 VO008,True,True,True
+E004,bút gel đen,BU008,bút gel đen,BU008,100,matched,BU008 BU009 BU027,True,True,True
+E004,decal A4,BT004,decal A4,BT004,100,matched,BT004 BI005 VO006,True,True,True
+E004,túi nút xanh,BI007,túi nút xanh,BI007,100,matched,BI007 BU026 MU003,True,True,True
+E005,tập 200 kẻ ngang,VO003,tập 200 kẻ ngang,VO003,100,matched,VO003 VO001 VO004,True,True,True
+E005,mực dấu xanh,MU003,mực dấu xanh,MU003,100,matched,MU003 MU004 BU023,True,True,True
+E005,bìa còng 7 phân đen,BI004,bìa còng 7 phân đen,BI004,100,matched,BI004 BI002 BI003,True,True,True
+E006,sổ name card,VO008,sổ name card,TH006,48,unmatched,TH006 VO007 KE009,False,False,False
+E006,dập ghim số 3,KE011,dập ghim số 3,KE011,100,matched,KE011 KE010 KE009,True,True,True
+E009,Cắt băng keo,BK006,Cắt băng keo,BK006,100,matched,BK006 BK003 BK001,True,True,True
+E009,Vở 200 trang kẻ ngang,VO003,Vở 200 trang kẻ ngang,VO003,100,matched,VO003 VO001 VO004,True,True,True
+E009,Bút xóa nước 12ml,BU029,Bút xóa nước 12ml,BU029,100,matched,BU029 HS005 HS004,True,True,True
+E009,mực dấu xanh,MU003,mực dấu xanh,MU003,100,matched,MU003 MU004 BU023,True,True,True
+E010,sổ name card,VO008,sổ name card,TH006,48,unmatched,TH006 VO007 KE009,False,False,False
+E010,dạ quang vàng,BU016,dạ quang vàng,BU016,100,matched,BU016 BU019 BU018,True,True,True
+E011,Giấy note vàng 3x3,GI011,Giấy note vàng 3x3,GI011,100,matched,GI011 GI012 GI013,True,True,True
+E011,Kẹp bướm 51mm,KE006,Kẹp bướm 51mm,KE006,100,matched,KE006 KE001 KE002,True,True,True
+E018,băng dính nhỏ,BK002,băng dính nhỏ,BU030,67,unmatched,BU030 TH006 TH002,False,False,False
+E018,tampon,MU005,tampon,DC011,50,unmatched,DC011 PI001 PI002,False,False,False
+E018,bút gel đen,BU008,bút gel đen,BU008,100,matched,BU008 BU009 BU027,True,True,True
+E018,bút bảng xanh,BU020,bút bảng xanh,BU020,100,suggested,BU020 MU001 BU026,True,True,True
+E018,sổ danh thiếp,VO008,sổ danh thiếp,VO008,100,matched,VO008 TH001 KE011,True,True,True
+E020,Vở 200 trang kẻ ngang,VO003,Vở 200 trang kẻ ngang,VO003,100,matched,VO003 VO001 VO004,True,True,True
+E020,bút đen 0.5,BU003,bút đen 0.5,BU003,100,suggested,BU003 BU008 BU027,True,True,True
+E021,Bút lông dầu đỏ,BU025,Bút lông dầu đỏ,BU025,100,matched,BU025 BU024 BU023,True,True,True
+E021,Giấy note vàng 3x3,GI011,Giấy note vàng 3x3,GI011,100,matched,GI011 GI012 GI013,True,True,True
+E021,xóa kéo,BU030,xóa kéo,BK006,60,unmatched,BK006 DC010 BK003,False,False,False
+E021,Vở 200 trang ô ly,VO004,Vở 200 trang ô ly,VO004,100,matched,VO004 VO002 VO003,True,True,True
+E021,Kẹp bướm 51mm,KE006,Kẹp bướm 51mm,KE006,100,matched,KE006 KE001 KE002,True,True,True
+E022,pin 3A,PI002,pin 3A,PI001,77,suggested,PI001 PI002 GI003,False,True,False
+E022,khăn giấy,BT005,khăn giấy,BT005,100,matched,BT005 GI015 GI007,True,True,True
+E023,kẹp bướm số 25,KE003,kẹp bướm số 25,KE003,100,matched,KE003 KE001 KE004,True,True,True
+E023,Ghim cài,KE013,Ghim cài,KE013,100,matched,KE013 KE012 KE009,True,True,True
+E023,bút xanh 0.5,BU001,bút xanh 0.5,BU001,100,suggested,BU001 BU007 BU026,True,True,True
+E024,Bìa còng 7cm xanh,BI003,Bìa còng 7cm xanh,BI003,100,matched,BI003 BI001 BI004,True,True,True
+E024,lông dầu đỏ,BU025,lông dầu đỏ,BU025,100,matched,BU025 BU024 BU023,True,True,True
+E024,vở 96tr kẻ ngang,VO001,vở 96tr kẻ ngang,VO001,100,matched,VO001 VO003 VO002,True,True,True
+E024,bìa màu hồng,GI010,bìa màu hồng,GI010,100,matched,GI010 GI009 GI006,True,True,True
+E025,Giấy note vàng 3x3,GI011,Giấy note vàng 3x3,GI011,100,matched,GI011 GI012 GI013,True,True,True
+E025,Kệ hồ sơ 3 tầng,TH003,Kệ hồ sơ 3 tầng,TH003,100,matched,TH003 DC002 BI012,True,True,True
+E025,Máy tính bỏ túi 12 số,PI003,Máy tính bỏ túi 12 số,PI003,100,matched,PI003 KE008 BI011,True,True,True
+E025,Giấy bìa màu A4 hồng,GI010,Giấy bìa màu A4 hồng,GI010,100,suggested,GI010 GI006 GI009,True,True,True
+E026,bút bi xanh 0.7,BU004,bút bi xanh 0.7,BU004,100,matched,BU004 BU001 BU026,True,True,True
+E026,Kẹp bướm 32mm,KE004,Kẹp bướm 32mm,KE004,100,matched,KE004 KE003 KE001,True,True,True
+E026,Gỡ ghim,KE012,Gỡ ghim,KE012,100,matched,KE012 KE013 KE011,True,True,True
+E027,Bút xóa nước 12ml,BU029,Bút xóa nước 12ml,BU029,100,matched,BU029 HS005 HS004,True,True,True
+E027,giấy A4 70,GI001,giấy A4 70,GI001,100,matched,GI001 GI004 GI002,True,True,True
+E027,bút chì kim 0.5,BU012,bút chì kim 0.5,BU012,100,matched,BU012 BU013 BU014,True,True,True
+E028,vở 200 trang,VO004,vở 200 trang,VO004,100,suggested,VO004 VO003 VO002,True,True,True
+E028,bút bi xanh,BU001,bút bi xanh,BU001,100,suggested,BU001 BU004 BU026,True,True,True
+E029,Pin AAA,PI002,Pin AAA,PI002,100,matched,PI002 PI001 HS002,True,True,True
+E029,Mực dấu xanh,MU003,Mực dấu xanh,MU003,100,matched,MU003 MU004 BU023,True,True,True
+E029,Hộp dấu,MU005,Hộp dấu,MU005,100,matched,MU005 MU004 BU025,True,True,True
+E031,Vở 200 trang ô ly,VO004,Vở 200 trang ô ly,VO004,100,matched,VO004 VO002 VO003,True,True,True
+E031,kẹp bướm số 51,KE006,kẹp bướm số 51,KE006,88,suggested,KE006 KE003 KE001,True,True,True
+E031,Kéo học sinh,DC002,Kéo học sinh,DC002,100,matched,DC002 TH003 DC010,True,True,True
+E033,mực dấu xanh,MU003,mực dấu xanh,MU003,100,matched,MU003 MU004 BU023,True,True,True
+E033,cắt keo,BK006,cắt keo,BK006,100,matched,BK006 BK003 BK001,True,True,True
+E033,bút xanh 0.5,BU001,bút xanh 0.5,BU001,100,suggested,BU001 BU007 BU026,True,True,True
+E036,bút chì kim 0.5,BU012,bút chì kim 0.5,BU012,100,matched,BU012 BU013 BU014,True,True,True
+E036,băng keo giấy,BK004,băng keo giấy,BK004,100,matched,BK004 BK006 BK005,True,True,True
+E036,Băng keo trong 5cm,BK001,Băng keo trong 5cm,BK001,100,matched,BK001 BK002 BK003,True,True,True
+E037,Bút dạ quang vàng,BU016,Bút dạ quang vàng,BU016,100,matched,BU016 BU018 BU019,True,True,True
+E037,Bút dạ quang hồng,BU018,Bút dạ quang hồng,BU018,100,matched,BU018 BU016 BU019,True,True,True
+E037,dây thun,KE014,dây thun,KE014,67,unmatched,KE014 TH001 GI015,True,True,True
+E037,Sổ danh thiếp 240 lá,VO008,Sổ danh thiếp 240 lá,VO008,100,matched,VO008 KE010 VO006,True,True,True
+E038,bút highlight hồng,BU018,bút highlight hồng,BU018,64,unmatched,BU018 BU011 BU022,True,True,True
+E038,sổ da,VO007,sổ da,VO007,100,matched,VO007 MU005 VO005,True,True,True
+E039,Khăn giấy hộp,BT005,Khăn giấy hộp,BT005,100,matched,BT005 GI015 GI007,True,True,True
+E039,Giấy A4 80gsm,GI002,Giấy A4 80gsm,GI002,100,matched,GI002 GI001 GI003,True,True,True
+E041,Giấy A4 70gsm,GI001,Giấy A4 70gsm,GI001,100,matched,GI001 GI002 GI004,True,True,True
+E041,Hồ dán nước 30ml,DC009,Hồ dán nước 30ml,DC009,100,matched,DC009 BU029 KE011,True,True,True
+E041,Kẹp bướm 15mm,KE001,Kẹp bướm 15mm,KE001,100,matched,KE001 KE002 KE003,True,True,True
+E041,Bút dạ quang xanh lá,BU017,Bút dạ quang xanh lá,BU017,100,matched,BU017 BU019 BU026,True,True,True
+E044,Hộp dấu,MU005,Hộp dấu,MU005,100,matched,MU005 BU025 MU004,True,True,True
+E044,Bút lông dầu đỏ,BU025,Bút lông dầu đỏ,BU025,100,matched,BU025 BU024 BU023,True,True,True
+E044,Bút lông dầu xanh,BU023,Bút lông dầu xanh,BU023,100,matched,BU023 BU025 BU020,True,True,True
+E045,thun,KE014,thun,KE014,100,matched,KE014 BT002 BT003,True,True,True
+E045,Bút lông kim đen 0.3mm,BU028,Bút lông kim đen 0.3mm,BU028,100,matched,BU028 BU024 BU021,True,True,True
+E045,Bút dạ quang cam,BU019,Bút dạ quang cam,BU019,100,matched,BU019 BU016 BU018,True,True,True
+E045,Bao thư trắng A5,BT002,Bao thư trắng A5,BT002,100,matched,BT002 BT001 BT003,True,True,True
+E056,Ruột chì kim 0.5mm,BU014,Ruột chì kim 0.5mm,BU014,100,matched,BU014 BU015 BU012,True,True,True
+E056,Dập ghim số 3,KE011,Dập ghim số 3,KE011,100,matched,KE011 KE010 KE009,True,True,True
+E056,Sổ lò xo A5,VO005,Sổ lò xo A5,VO005,100,matched,VO005 VO006 VO007,True,True,True

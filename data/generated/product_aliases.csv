@@ -1,0 +1,61 @@
+﻿alias_id,customer_id,alias_text,sku
+AL001,KH001,tập 96 kẻ ngang,VO001
+AL002,KH001,A4 màu xanh,GI005
+AL003,KH001,sổ xoắn A5,VO005
+AL004,KH002,bút ký xanh,BU026
+AL005,KH002,dập ghim 10,KE010
+AL006,KH002,mực dấu đỏ,MU004
+AL007,KH003,keo đục,BK003
+AL008,KH003,note 5 màu,GI013
+AL009,KH003,xóa kéo,BU030
+AL010,KH004,giấy in bill K80,GI014
+AL011,KH004,khay hồ sơ 3 tầng,TH003
+AL012,KH004,tampon,MU005
+AL013,KH005,dạ quang cam,BU019
+AL014,KH005,kẹp bướm số 32,KE004
+AL015,KH005,dây thun,KE014
+AL016,KH006,sổ bìa da,VO007
+AL017,KH006,kệ 3 tầng,TH003
+AL018,KH006,dây thẻ,TH001
+AL019,KH007,khay bút,TH004
+AL020,KH007,bút highlight vàng,BU016
+AL021,KH007,bảng từ,TH005
+AL022,KH008,mực bút bảng xanh,MU001
+AL023,KH008,băng keo đục,BK003
+AL024,KH008,giấy A5,GI004
+AL025,KH009,bút ký xanh,BU026
+AL026,KH009,băng dính 2 mặt,BK005
+AL027,KH009,giấy in A4 70,GI001
+AL028,KH010,tập 200 kẻ ngang,VO003
+AL029,KH010,bút chì kim 0.5,BU012
+AL030,KH010,giấy A4 70,GI001
+AL031,KH011,giấy dán nhãn,BT004
+AL032,KH011,bút gel đen,BU008
+AL033,KH011,túi nút xanh,BI007
+AL034,KH012,băng keo giấy,BK004
+AL035,KH012,bút chì kim 0.5,BU012
+AL036,KH012,sổ bìa da,VO007
+AL037,KH013,bìa màu hồng,GI010
+AL038,KH013,lông dầu đỏ,BU025
+AL039,KH013,bút ký đen,BU027
+AL040,KH014,thun,KE014
+AL041,,giấy màu vàng,GI007
+AL042,,file 20 lá,BI009
+AL043,,bấm lỗ,DC011
+AL044,,kẹp bướm 25,KE003
+AL045,,bao thư A6,BT003
+AL046,,bao thư A5,BT002
+AL047,,bìa lá,BI005
+AL048,,vở 96tr kẻ ngang,VO001
+AL049,,bút gel đỏ,BU009
+AL050,,bìa màu vàng,GI009
+AL051,,vở 200tr ô ly,VO004
+AL052,,bút chì 2B,BU010
+AL053,,ruột chì 0.5,BU014
+AL054,,bìa còng 7 phân đen,BI004
+AL055,,bìa màu xanh,GI008
+AL056,,ruột chì 0.7,BU015
+AL057,,bút bảng đen,BU021
+AL058,,băng xóa,BU030
+AL059,,dạ quang cam,BU019
+AL060,,hồ nước,DC009

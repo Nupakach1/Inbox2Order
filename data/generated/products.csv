@@ -1,0 +1,121 @@
+﻿sku,name,group,unit,pack_unit,pack_size,price_vnd,max_normal_qty
+BU001,Bút bi xanh 0.5mm,BU,cây,hộp,20,4500,180
+BU002,Bút bi đỏ 0.5mm,BU,cây,hộp,20,4500,280
+BU003,Bút bi đen 0.5mm,BU,cây,hộp,20,4500,200
+BU004,Bút bi xanh 0.7mm,BU,cây,hộp,20,5000,180
+BU005,Bút bi đỏ 0.7mm,BU,cây,hộp,20,5000,280
+BU006,Bút bi đen 0.7mm,BU,cây,hộp,20,5000,160
+BU007,Bút gel xanh 0.5mm,BU,cây,hộp,12,7000,132
+BU008,Bút gel đen 0.5mm,BU,cây,hộp,12,7000,168
+BU009,Bút gel đỏ 0.5mm,BU,cây,hộp,12,7000,180
+BU010,Bút chì gỗ 2B,BU,cây,hộp,12,3500,132
+BU011,Bút chì gỗ HB,BU,cây,hộp,12,3500,120
+BU012,Bút chì kim 0.5mm,BU,cây,hộp,12,12000,168
+BU013,Bút chì kim 0.7mm,BU,cây,hộp,12,12000,180
+BU014,Ruột chì kim 0.5mm,BU,tuýp,hộp,12,6000,156
+BU015,Ruột chì kim 0.7mm,BU,tuýp,hộp,12,6000,132
+BU016,Bút dạ quang vàng,BU,cây,hộp,10,8000,80
+BU017,Bút dạ quang xanh lá,BU,cây,hộp,10,8000,90
+BU018,Bút dạ quang hồng,BU,cây,hộp,10,8000,90
+BU019,Bút dạ quang cam,BU,cây,hộp,10,8000,90
+BU020,Bút lông bảng xanh,BU,cây,hộp,10,9000,80
+BU021,Bút lông bảng đen,BU,cây,hộp,10,9000,80
+BU022,Bút lông bảng đỏ,BU,cây,hộp,10,9000,150
+BU023,Bút lông dầu xanh,BU,cây,hộp,10,10000,130
+BU024,Bút lông dầu đen,BU,cây,hộp,10,10000,90
+BU025,Bút lông dầu đỏ,BU,cây,hộp,10,10000,140
+BU026,Bút ký xanh,BU,cây,hộp,12,15000,108
+BU027,Bút ký đen,BU,cây,hộp,12,15000,132
+BU028,Bút lông kim đen 0.3mm,BU,cây,hộp,12,12000,108
+BU029,Bút xóa nước 12ml,BU,cây,hộp,12,15000,144
+BU030,Băng xóa 5mm x 6m,BU,cái,hộp,12,18000,168
+GI001,Giấy A4 70gsm,GI,ram,thùng,5,72000,45
+GI002,Giấy A4 80gsm,GI,ram,thùng,5,85000,60
+GI003,Giấy A3 80gsm,GI,ram,thùng,5,170000,50
+GI004,Giấy A5 70gsm,GI,ram,thùng,10,38000,120
+GI005,Giấy màu A4 xanh,GI,ram,thùng,5,95000,65
+GI006,Giấy màu A4 hồng,GI,ram,thùng,5,95000,45
+GI007,Giấy màu A4 vàng,GI,ram,thùng,5,95000,75
+GI008,Giấy bìa màu A4 xanh,GI,xấp,thùng,5,65000,40
+GI009,Giấy bìa màu A4 vàng,GI,xấp,thùng,5,65000,75
+GI010,Giấy bìa màu A4 hồng,GI,xấp,thùng,5,65000,50
+GI011,Giấy note vàng 3x3,GI,xấp,lốc,12,9000,156
+GI012,Giấy note vàng 3x4,GI,xấp,lốc,12,11000,156
+GI013,Giấy note 5 màu 3x3,GI,xấp,lốc,12,14000,168
+GI014,Giấy in nhiệt K80,GI,cuộn,lốc,10,12000,100
+GI015,Giấy than A4,GI,hộp,,1,95000,30
+VO001,Vở 96 trang kẻ ngang,VO,cuốn,lốc,10,9000,90
+VO002,Vở 96 trang ô ly,VO,cuốn,lốc,10,9000,110
+VO003,Vở 200 trang kẻ ngang,VO,cuốn,lốc,10,16000,150
+VO004,Vở 200 trang ô ly,VO,cuốn,lốc,10,16000,140
+VO005,Sổ lò xo A5,VO,cuốn,lốc,5,22000,60
+VO006,Sổ lò xo A4,VO,cuốn,lốc,5,32000,60
+VO007,Sổ bìa da A5,VO,cuốn,,1,55000,20
+VO008,Sổ danh thiếp 240 lá,VO,cuốn,,1,45000,30
+BI001,Bìa còng 5cm xanh,BI,cái,thùng,20,42000,240
+BI002,Bìa còng 5cm đen,BI,cái,thùng,20,42000,180
+BI003,Bìa còng 7cm xanh,BI,cái,thùng,20,48000,200
+BI004,Bìa còng 7cm đen,BI,cái,thùng,20,48000,240
+BI005,Bìa lá A4,BI,cái,lốc,10,2500,100
+BI006,Bìa nút A4 trong,BI,cái,lốc,12,4000,144
+BI007,Bìa nút A4 xanh,BI,cái,lốc,12,4000,180
+BI008,Bìa trình ký A4,BI,cái,,1,28000,30
+BI009,File nhựa 20 lá,BI,cuốn,,1,25000,50
+BI010,File nhựa 40 lá,BI,cuốn,,1,38000,30
+BI011,Túi khóa zip A4,BI,cái,lốc,10,5000,90
+BI012,Hộp đựng hồ sơ 10cm,BI,cái,,1,35000,20
+KE001,Kẹp bướm 15mm,KE,hộp,lốc,10,9000,90
+KE002,Kẹp bướm 19mm,KE,hộp,lốc,10,11000,100
+KE003,Kẹp bướm 25mm,KE,hộp,lốc,10,15000,110
+KE004,Kẹp bướm 32mm,KE,hộp,lốc,10,22000,100
+KE005,Kẹp bướm 41mm,KE,hộp,lốc,10,32000,100
+KE006,Kẹp bướm 51mm,KE,hộp,lốc,10,45000,130
+KE007,Kẹp giấy tam giác,KE,hộp,lốc,10,6000,100
+KE008,Ghim bấm số 10,KE,hộp,lốc,20,3500,200
+KE009,Ghim bấm số 3,KE,hộp,lốc,20,9000,300
+KE010,Dập ghim số 10,KE,cái,,1,35000,30
+KE011,Dập ghim số 3,KE,cái,,1,85000,20
+KE012,Gỡ ghim,KE,cái,,1,12000,30
+KE013,Ghim cài,KE,hộp,lốc,10,5000,130
+KE014,Thun vòng,KE,bịch,,1,25000,50
+BK001,Băng keo trong 5cm,BK,cuộn,lốc,6,18000,60
+BK002,Băng keo trong 2.5cm,BK,cuộn,lốc,6,8000,72
+BK003,Băng keo đục 5cm,BK,cuộn,lốc,6,18000,84
+BK004,Băng keo giấy 2.4cm,BK,cuộn,lốc,6,9000,72
+BK005,Băng keo hai mặt 1cm,BK,cuộn,lốc,6,7000,90
+BK006,Cắt băng keo,BK,cái,,1,65000,50
+DC001,Kéo văn phòng 18cm,DC,cái,,1,22000,50
+DC002,Kéo học sinh,DC,cái,hộp,12,9000,168
+DC003,Dao rọc giấy lớn,DC,cái,,1,18000,30
+DC004,Dao rọc giấy nhỏ,DC,cái,,1,9000,50
+DC005,Lưỡi dao rọc giấy lớn,DC,hộp,,1,15000,30
+DC006,Thước kẻ 20cm,DC,cái,hộp,20,4000,300
+DC007,Thước kẻ 30cm,DC,cái,hộp,20,6000,300
+DC008,Gôm trắng,DC,cục,hộp,20,3000,300
+DC009,Hồ dán nước 30ml,DC,chai,hộp,12,5000,96
+DC010,Keo khô 8g,DC,cây,hộp,12,9000,96
+DC011,Bấm lỗ,DC,cái,,1,75000,30
+MU001,Mực bút lông bảng xanh,MU,lọ,,1,22000,30
+MU002,Mực bút lông bảng đen,MU,lọ,,1,22000,20
+MU003,Mực dấu xanh,MU,lọ,,1,20000,20
+MU004,Mực dấu đỏ,MU,lọ,,1,20000,50
+MU005,Hộp dấu,MU,cái,,1,45000,20
+TH001,Dây đeo thẻ,TH,cái,lốc,10,6000,150
+TH002,Bao đựng thẻ nhựa,TH,cái,lốc,10,4000,110
+TH003,Kệ hồ sơ 3 tầng,TH,cái,,1,120000,30
+TH004,Khay cắm bút,TH,cái,,1,35000,30
+TH005,Bảng từ trắng 60x80cm,TH,cái,,1,280000,50
+TH006,Nam châm bảng,TH,vỉ,,1,18000,50
+PI001,Pin AA,PI,vỉ,hộp,10,12000,140
+PI002,Pin AAA,PI,vỉ,hộp,10,12000,90
+PI003,Máy tính bỏ túi 12 số,PI,cái,,1,180000,30
+HS001,Phấn trắng,HS,hộp,thùng,20,12000,280
+HS002,Phấn màu,HS,hộp,thùng,20,15000,220
+HS003,Sáp màu 12 màu,HS,hộp,thùng,20,18000,160
+HS004,Bút màu 12 màu,HS,hộp,thùng,20,25000,180
+HS005,Màu nước 12 màu,HS,hộp,thùng,20,30000,200
+BT001,Bao thư trắng A4,BT,xấp,lốc,10,45000,80
+BT002,Bao thư trắng A5,BT,xấp,lốc,10,30000,130
+BT003,Bao thư trắng A6,BT,xấp,lốc,10,20000,130
+BT004,Giấy decal A4,BT,xấp,,1,55000,50
+BT005,Khăn giấy hộp,BT,hộp,thùng,30,18000,450
