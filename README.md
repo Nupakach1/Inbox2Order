@@ -103,4 +103,4 @@ python mockup/build_mockup.py                # dữ liệu mockup, Tailwind (ả
 python -m pytest tests                       # 34 kiểm thử (phần CSDL cần psql; không có thì bỏ qua)
 ```
 
-Mở giao diện demo: `mockup/app/index.html` bằng trình duyệt (không cần mạng). Các màn hình: `#hop-thu` (Hộp thư), `#don/E004` (chi tiết đơn), `#danh-muc` (Danh mục SKU), `#bao-cao` (Dashboard KPI). Đổi người dùng ở ô "Đang dùng" góc phải; tải lại trang để về dữ liệu ban đầu.
+Bản trực tuyến: https://nupakach1.github.io/Inbox2Order/ (tự chuyển sang giao diện demo). Mở trên máy: `mockup/app/index.html` bằng trình duyệt (không cần mạng). Các màn hình: `#hop-thu` (Hộp thư), `#don/E004` (chi tiết đơn), `#danh-muc` (Danh mục SKU), `#bao-cao` (Dashboard KPI). Đổi người dùng ở ô "Đang dùng" góc phải; tải lại trang để về dữ liệu ban đầu.
